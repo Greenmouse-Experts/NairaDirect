@@ -1,0 +1,487 @@
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.1/font/bootstrap-icons.css');
+
+html,
+body {
+    font-family: 'Poppins', sans-serif !important;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+body.light {
+    /* Light theme styles */
+    background-color: #ffffff;
+    color: #000000;
+}
+
+body.dark {
+    /* Dark theme styles */
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #000;
+    border-radius: 2px;
+}
+
+*::-moz-scrollbar-thumb {
+    background-color: #000;
+    border-radius: 2px;
+}
+
+::-moz-selection {
+    color: #000;
+    background: #27287b;
+
+}
+
+
+::selection {
+    color: #fff;
+    background: #27287b;
+}
+
+.route-link {
+    color: #000;
+    text-decoration: none;
+}
+
+.route-link:hover {
+    color: #000;
+}
+
+.text-right {
+    text-align: right;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+h5 {
+    margin-bottom: 0px !important;
+}
+
+p {
+    margin-bottom: 0px !important;
+}
+
+.container-fluid {
+    padding: 0px 50px !important;
+}
+
+/* HEADDER STYEL */
+
+header {
+    padding: 10px 0px 2px 10px;
+    background-color: #000;
+}
+
+header .headder-icon {
+    color: #DFF54B;
+    font-size: 30px;
+}
+
+header .headder-icon:hover {
+    color: #DFF54B;
+}
+
+.offcanvas-backdrop {
+    background-color: transparent !important;
+}
+
+.all-in-one {
+    background-color: #171717;
+    color: #fff;
+}
+
+.all-in-one img {
+    width: 250px;
+    border-radius: 5px;
+}
+
+.bi-search {
+    position: relative;
+    left: 25px;
+    top: -29px;
+    color: #fff;
+}
+
+.alll input {
+    margin-top: 13px;
+    color: #fff !important;
+    background-color: #202020;
+    font-size: 14px;
+    font-weight: 300;
+    border-radius: 30px;
+    padding: 7px 10px 7px 50px;
+}
+
+.alll input::placeholder {
+    color: #fff;
+}
+
+.alll input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.alll input:hover {
+    background-color: #202020;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.all-in-one .closeing {
+    background-color: #fff;
+    padding: 10px 10px 5px 5px;
+    border-radius: 50px;
+}
+
+.all-in-one .btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.css-snw5ah {
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    z-index: 1200;
+    position: fixed;
+    top: 0px;
+    outline: 0px;
+    left: 0px;
+    width: 310px;
+    padding: 80px 32px 40px;
+    background-color: var(--widget);
+    color: var(--text);
+    font-size: 1rem;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100%;
+    font-weight: 500 !important;
+}
+
+.offcanvas.offcanvas-start {
+    width: 320px !important;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.list_item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    line-height: 1;
+}
+
+.list_item i {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+}
+
+.list_item i.sm {
+    font-size: 15px;
+}
+
+.style_list__4zulN {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+@media screen and (min-height: 820px) {
+    .list {
+        gap: 40px;
+        margin-top: 40px;
+    }
+}
+
+.logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 16px;
+}
+
+@media screen and (min-height: 820px) {
+    .logo {
+        margin-bottom: 30px;
+    }
+}
+
+.nav-link {
+    transition: color var(--transition);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-link--sidebar {
+    flex-direction: row;
+    width: fit-content;
+}
+
+.nav-link .wrapper {
+    position: relative;
+}
+
+.nav-link .icon {
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity var(--transition);
+}
+
+.nav-link .icon.sm {
+    font-size: 18px;
+}
+
+.nav-link .icon-fill {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.nav-link.active,
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--header);
+}
+
+.nav-link.active .icon,
+.nav-link:hover .icon,
+.nav-link:focus .icon {
+    opacity: 0;
+}
+
+.nav-link.active .icon.active,
+.nav-link:hover .icon.active,
+.nav-link:focus .icon.active {
+    opacity: 1;
+}
+
+@font-face {
+    font-family: "icomoon";
+    src: url("../../fonts/icomoon/icomoon.woff") format("woff"), url("../../fonts/icomoon/icomoon.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    font-family: "icomoon" !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-minus:before {
+    content: "";
+}
+
+.icon-plus:before {
+    content: "";
+}
+
+.icon-reset:before {
+    content: "";
+}
+
+.icon-xmark:before {
+    content: "";
+}
+
+.icon-pan:before {
+    content: "";
+}
+
+.icon-delete:before {
+    content: "";
+}
+
+.icon-logout:before {
+    content: "";
+}
+
+.icon-lang:before {
+    content: "";
+}
+
+.icon-aml:before {
+    content: "";
+}
+
+.icon-security:before {
+    content: "";
+}
+
+.icon-verification:before {
+    content: "";
+}
+
+.icon-info-active:before {
+    content: "";
+}
+
+.icon-dashboard:before {
+    content: "";
+}
+
+.icon-dashboard-active:before {
+    content: "";
+}
+
+.icon-home-active:before {
+    content: "";
+}
+
+.icon-wallet:before {
+    content: "";
+}
+
+.icon-actions:before {
+    content: "";
+}
+
+.icon-actions-active:before {
+    content: "";
+}
+
+.icon-home:before {
+    content: "";
+}
+
+.icon-nft:before {
+    content: "";
+}
+
+.icon-nft-active:before {
+    content: "";
+}
+
+.icon-trade:before {
+    content: "";
+}
+
+.icon-wallet-active:before {
+    content: "";
+}
+
+.icon-theme:before {
+    content: "";
+}
+
+.icon-info:before {
+    content: "";
+}
+
+.icon-notification-active:before {
+    content: "";
+}
+
+.icon-bars-solid:before {
+    content: "";
+}
+
+.icon-bars-regular:before {
+    content: "";
+}
+
+.icon-headset:before {
+    content: "";
+}
+
+.icon-collections-active:before {
+    content: "";
+}
+
+.icon-collections:before {
+    content: "";
+}
+
+.icon-star:before {
+    content: "";
+}
+
+.icon-star-o:before {
+    content: "";
+}
+
+.icon-caret-down:before {
+    content: "";
+}
+
+.icon-caret-up:before {
+    content: "";
+}
+
+.icon-chevron-down:before {
+    content: "";
+}
+
+.icon-chevron-left:before {
+    content: "";
+}
+
+.icon-chevron-right:before {
+    content: "";
+}
+
+.icon-chevron-up:before {
+    content: "";
+}
+
+.icon-user:before {
+    content: "";
+}
+
+.icon-search:before {
+    content: "";
+}
+
+.icon-notification:before {
+    content: "";
+}
+
+
+/* HEADDER STYEL ENDS*/
