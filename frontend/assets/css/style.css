@@ -1,0 +1,139 @@
+[data-theme="light"] {
+  --color-bg: #ffffff !important;
+  --color-fg: #000000 !important;
+  --color-sg: #f1f1f1 !important;
+}
+
+[data-theme="dark"] {
+  --color-bg: #000000 !important;
+  --color-fg: #dadada !important;
+  --color-sg: #131722 !important;
+}
+
+/* example use of CSS custom properties */
+body {
+  background-color: var(--color-bg) !important;
+  color: var(--color-fg) !important;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  color: var(--color-fg) !important;
+  font-family: "Poppins", sans-serif;
+}
+.bg-sec {
+  background: var(--color-sg);
+}
+.bg-trans {
+  background: transparent;
+}
+/* The switch - the box around the slider */
+.switch {
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  width: 3.5em;
+  height: 2em;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  --background: #28096b;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--background);
+  transition: 0.5s;
+  border-radius: 30px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 1.4em;
+  width: 1.4em;
+  border-radius: 50%;
+  left: 10%;
+  bottom: 15%;
+  box-shadow: inset 8px -4px 0px 0px #fff000;
+  background: var(--background);
+  transition: 0.5s;
+}
+
+input:checked + .slider {
+  background-color: #522ba7;
+}
+
+input:checked + .slider:before {
+  transform: translateX(100%);
+  box-shadow: inset 15px -4px 0px 15px #fff000;
+}
+/* home page styling */
+/* hero banner */
+.intro {
+  padding: 100px 0;
+}
+.intro .intro-content h1{
+    line-height: 55px;
+    margin-bottom: 30px;
+}
+.h1{
+    font-size: 2.25rem;
+}
+.intro .intro-content p{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.intro-btn .btn-outline-primary, .intro-btn .btn-primary{
+    padding: 10px 30px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.intro-btn .btn-primary{
+    margin-right: 30px;
+}
+.intro-form-exchange{
+    padding: 30px;
+    box-shadow: 0 20px 25px rgba(22,28,45,.05);
+    border-radius: 5px;
+    background: var(--color-sg);
+}
+.intro-form-exchange .btn{
+    padding: 10px 15px;
+    font-weight: 500;
+    position: relative;
+    font-size: 16px;
+}
+.section-padding{
+    padding: 100px 0;
+}
+.price-grid .card .card-header{
+    padding: 15px 15px 0;
+    border: 0;
+}
+.card-header:first-child{
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+}
+.media {
+    display:flex;
+    align-items: flex-start
+}
+@media (max-width: 960px) {
+    .section-padding{
+        padding: 50px 0;
+    }
+    .intro{
+        padding: 50px 0;
+    }
+}
