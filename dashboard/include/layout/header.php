@@ -64,13 +64,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-2">
-                        .
+                        
                     </div>
                 </div>
             </div>
         </section>
     </div>
-
     <!-- Bootstrap JS (Popper.js and jQuery dependencies) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="./assets/js/theme-switcher.js"></script>
