@@ -30,8 +30,7 @@
                 class="header-inner d-flex align-items-center justify-content-around justify-content-xl-between flex-wrap flex-xl-nowrap gap-3 gap-xl-5">
                 <div class="header-left-part d-flex align-items-center flex-grow-1 w-100">
                     <div class="header-search w-40">
-                        <form class="search-form"
-                            action="https://wpthemebooster.com/demo/themeforest/html/kleon/search.php">
+                        <form class="search-form">
                             <input type="text" name="search" class="keyword form-control w-100" placeholder="Search">
                             <button type="submit" class="btn"><img src="assets/img/svg/search.svg" alt=""></button>
                         </form>
@@ -253,11 +252,11 @@
     <div class="kleon-vertical-nav">
         <!-- Logo  -->
         <div class="logo d-flex align-items-center justify-content-between">
-            <a href="index.html" class="d-flex align-items-center gap-3 flex-shrink-0">
-                <img src="assets/img/logo-icon.svg" alt="logo">
+            <a href="#" class="d-flex align-items-center gap-3 flex-shrink-0">
+                <img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1702931811/eyvre8n6kz9a18vadbzl-removebg-preview_gegkpj.png" alt="logo">
                 <div class="position-relative flex-shrink-0">
-                    <img src="assets/img/logo-text.svg" alt="" class="logo-text">
-                    <img src="assets/img/logo-text-white.svg" alt="" class="logo-text-white">
+                    <!-- <img src="assets/img/logo-text.svg" alt="" class="logo-text"> -->
+                    <img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1702931811/eyvre8n6kz9a18vadbzl-removebg-preview_gegkpj.png" alt="" class="logo-text-white">
                 </div>
             </a>
             <button type="button" class="kleon-vertical-nav-toggle"><i class="bi bi-list"></i></button>
@@ -268,7 +267,7 @@
                 <li class="menu-item"><a href="#"><span class="nav-icon flex-shrink-0"><i
                                 class="bi bi-grid fs-20"></i></span> <span class="nav-text">Dashboards</span></a></li>
                 <li class="menu-item"><a href="#"><span class="nav-icon flex-shrink-0"><i
-                                class="bi bi-fonts fs-20"></i></span> <span class="nav-text">Typography</span></a></li>
+                                class="bi bi-plugin fs-20"></i></span> <span class="nav-text">Trade</span></a></li>
             </ul>
         </div>
     </div>
