@@ -22,9 +22,7 @@
 </head>
 </head>
 <body>
-    <footer>
-        Welcome Footer
-    </footer>
+   
    
 </body>
 </html>
