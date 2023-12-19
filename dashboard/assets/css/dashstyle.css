@@ -296,6 +296,7 @@ p {
     color: rgb(255, 255, 255);
     font-size: 20px;
 }
+
 .iFIRrr .title {
     font-size: 20px;
 }
@@ -339,15 +340,18 @@ p {
 .dWWHEg {
     padding: 10px;
 }
-.sc-bcXHqe{
+
+.sc-bcXHqe {
     height: 550px !important;
     overflow: auto;
 }
-.widget_header{
+
+.widget_header {
     padding: 10px 10px 0px 10px;
     margin-bottom: -5px;
 }
-.alalss{
+
+.alalss {
     margin-top: -28px;
     margin-left: 30px;
     font-size: 20px;
@@ -378,13 +382,16 @@ p {
         grid-template-columns: repeat(4, minmax(0, 1fr));
     }
 }
-.allling{
+
+.allling {
     padding: 15px;
 }
-.gjgjgjfj{
+
+.gjgjgjfj {
     font-size: 17px;
     font-weight: 500;
 }
+
 .indicator {
     background: #f13005;
     border-radius: 50%;
@@ -392,16 +399,18 @@ p {
     width: 6px;
 }
 
-.allling p{
+.allling p {
     margin-top: -10px;
     font-size: 14px;
     line-height: 2;
 }
+
 footer {
     background-color: #fff;
     padding: 20px 0px;
 }
-footer .foot{
+
+footer .foot {
     font-size: 15px;
     font-weight: 500;
 }
