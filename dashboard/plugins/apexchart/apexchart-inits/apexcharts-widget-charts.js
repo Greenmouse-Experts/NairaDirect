@@ -53,7 +53,7 @@ var options = {
     type: 'gradient',
     gradient: {
       shade: 'dark',
-      gradientToColors: [ '#924AEF'],
+      gradientToColors: [ '#3377C0'],
       shadeIntensity: 1,
       type: 'horizontal',
       opacityFrom: 1,
@@ -275,7 +275,7 @@ var options = {
         colors: ['#fff']
       }
     },
-    colors: ['#E328AF', '#924AEF',],
+    colors: ['#E328AF', '#3377C0',],
     // title: {
     //   text: 'Recruitment Progress',
     //   align: 'left'
@@ -363,7 +363,7 @@ var options = {
       }
     },
   },
-  colors: ['#924AEF', '#E328AF'],
+  colors: ['#3377C0', '#E328AF'],
  
   stroke: {
     curve: 'smooth'
@@ -461,7 +461,7 @@ var options = {
         colors: ['#fff']
       }
     },
-    colors: ['#924AEF', '#5ECFFF', '#E328AF', '#FF9325'],
+    colors: ['#3377C0', '#5ECFFF', '#E328AF', '#FF9325'],
     
     // title: {
     //   text: 'Leave Statistic',
@@ -538,7 +538,7 @@ var options = {
       height: 120,
       type: 'radialBar',
     },
-    colors: ['#924AEF'],
+    colors: ['#3377C0'],
     plotOptions: {
       radialBar: {
         hollow: {
@@ -729,7 +729,7 @@ var options = {
         colors: ['#fff']
       }
     },
-    colors: ['#924AEF', '#5ECFFF', '#E328AF', '#FF9325'],
+    colors: ['#3377C0', '#5ECFFF', '#E328AF', '#FF9325'],
     
     // title: {
     //   text: 'Leave Statistic',
@@ -824,7 +824,7 @@ var options = {
         }
       },
     },
-    colors: ['#924AEF', '#E328AF'],
+    colors: ['#3377C0', '#E328AF'],
    
     stroke: {
       curve: 'smooth'
@@ -1147,7 +1147,7 @@ var options = {
         show: false,
       },
     },
-    colors: ['#924AEF', '#E328AF'],
+    colors: ['#3377C0', '#E328AF'],
    
     stroke: {
       curve: 'smooth'
@@ -1248,7 +1248,7 @@ var options = {
     series: [20, 16, 16, 12, 25, 10],
     labels: ['Primary', 'Promotion', 'Forum', 'Socials', 'Spam', 'Other'],
     fill: {
-      colors: ['#924AEF', '#5ECFFF', '#E328AF', '#FF9325', '#FF4A55', '#DFEDF2']
+      colors: ['#3377C0', '#5ECFFF', '#E328AF', '#FF9325', '#FF4A55', '#DFEDF2']
     },
     plotOptions: {
       pie: {
@@ -1320,7 +1320,7 @@ var options = {
         enabled: true
       },
     },
-    colors: ['#924AEF'],
+    colors: ['#3377C0'],
     dataLabels: {
       enabled: false
     },
@@ -1397,7 +1397,7 @@ var options = {
         enabled: true
       },
     },
-    colors: ['#924AEF'],
+    colors: ['#3377C0'],
     dataLabels: {
       enabled: false
     },
@@ -1479,7 +1479,7 @@ var options = {
   colors: ['#A5A5A5'],
   markers: {
     size: 10,
-    colors: '#924AEF',
+    colors: '#3377C0',
     strokeColors: '#fff',
     strokeWidth: 0,
     strokeOpacity: 0.9,
@@ -1551,7 +1551,7 @@ var options = {
       height: 280,
       type: 'radialBar',
     },
-    colors: ['#924AEF'],
+    colors: ['#3377C0'],
     
     plotOptions: {
       radialBar: {

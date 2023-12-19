@@ -150,7 +150,7 @@ var options = {
       height: 120,
       type: 'radialBar',
     },
-    colors: ['#924AEF'],
+    colors: ['#3377C0'],
     plotOptions: {
       radialBar: {
         hollow: {
@@ -212,7 +212,7 @@ var options = {
         enabled: true
       },
     },
-    colors: ['#924AEF'],
+    colors: ['#3377C0'],
     dataLabels: {
       enabled: false
     },
@@ -289,7 +289,7 @@ var options = {
         enabled: true
       },
     },
-    colors: ['#924AEF'],
+    colors: ['#3377C0'],
     dataLabels: {
       enabled: false
     },
@@ -366,7 +366,7 @@ var options = {
         show: false,
       },
     },
-    colors: ['#924AEF'],
+    colors: ['#3377C0'],
     dataLabels: {
       enabled: false
     },
@@ -467,7 +467,7 @@ var options = {
         marker: {
           size: 14,
           strokeColor: '#ffffff',
-          fillColor: '#924AEF',
+          fillColor: '#3377C0',
           strokeWidth: 6,
           strokeOpacity: 0.9,
           strokeDashArray: 0,
@@ -476,11 +476,11 @@ var options = {
           radius: 50,
         },
         // label: {
-        //   borderColor: '#924AEF',
+        //   borderColor: '#3377C0',
         //   offsetY: 0,
         //   style: {
         //     color: '#fff',
-        //     background: '#924AEF',
+        //     background: '#3377C0',
         //   },
         //   text: 'Marker Here'
         // }

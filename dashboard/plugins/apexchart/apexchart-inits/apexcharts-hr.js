@@ -53,7 +53,7 @@ fill: {
   type: 'gradient',
   gradient: {
     shade: 'dark',
-    gradientToColors: [ '#924AEF'],
+    gradientToColors: [ '#3377C0'],
     shadeIntensity: 1,
     type: 'horizontal',
     opacityFrom: 1,
@@ -264,7 +264,7 @@ chart: {
     }
   },
 },
-colors: ['#924AEF', '#E328AF'],
+colors: ['#3377C0', '#E328AF'],
 
 stroke: {
   curve: 'smooth'
@@ -324,7 +324,7 @@ chart: {
   height: 450,
   type: 'radialBar',
 },
-colors: ['#924AEF'],
+colors: ['#3377C0'],
 plotOptions: {
   radialBar: {
     startAngle: -180,

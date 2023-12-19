@@ -7,7 +7,7 @@ var options = {
   series: [20, 16, 16, 12, 25, 10],
   labels: ['UI Designer', 'Front-End Developer', 'Back-End Developer', 'UX Researcher', 'Project Manager', 'Other'],
   fill: {
-    colors: ['#924AEF', '#5ECFFF', '#E328AF', '#FF9325', '#FF4A55', '#DFEDF2']
+    colors: ['#3377C0', '#5ECFFF', '#E328AF', '#FF9325', '#FF4A55', '#DFEDF2']
   },
   plotOptions: {
     pie: {

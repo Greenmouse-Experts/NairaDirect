@@ -174,7 +174,7 @@ var options = {
         show: false
       },
     },
-    colors: ['#924AEF'],
+    colors: ['#3377C0'],
     dataLabels: {
       enabled: false
     },

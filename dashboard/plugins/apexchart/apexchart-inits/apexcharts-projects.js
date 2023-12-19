@@ -6,7 +6,7 @@ var options = {
       height: 250,
       type: 'radialBar',
     },
-    colors: ['#924AEF', '#E328AF', '#5ECFFF'],
+    colors: ['#3377C0', '#E328AF', '#5ECFFF'],
     plotOptions: {
       radialBar: {
         startAngle: -180,
@@ -68,7 +68,7 @@ var options = {
         show: false,
       },
     },
-    colors: ['#924AEF', '#E328AF'],
+    colors: ['#3377C0', '#E328AF'],
    
     stroke: {
       curve: 'smooth'

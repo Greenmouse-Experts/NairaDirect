@@ -24,13 +24,13 @@ $('#world-map').vectorMap({
  ],
   markerStyle: {
     initial: {
-      fill: "#924AEF",
+      fill: "#3377C0",
       stroke: "#FFFFFF",
       r: 8,
       "stroke-width": 4,
     },
     hover: {
-      fill: "#924AEF",
+      fill: "#3377C0",
       stroke: "#FFFFFF",
       // r: 8,
       "stroke-width": 2,

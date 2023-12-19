@@ -16,7 +16,7 @@
         show: false,
       },
     },
-    colors: ['#924AEF'],
+    colors: ['#3377C0'],
     dataLabels: {
       enabled: false
     },
@@ -117,7 +117,7 @@
         marker: {
           size: 14,
           strokeColor: '#ffffff',
-          fillColor: '#924AEF',
+          fillColor: '#3377C0',
           strokeWidth: 6,
           strokeOpacity: 0.9,
           strokeDashArray: 0,
@@ -126,11 +126,11 @@
           radius: 50,
         },
         // label: {
-        //   borderColor: '#924AEF',
+        //   borderColor: '#3377C0',
         //   offsetY: 0,
         //   style: {
         //     color: '#fff',
-        //     background: '#924AEF',
+        //     background: '#3377C0',
         //   },
         //   text: 'Marker Here'
         // }
@@ -288,7 +288,7 @@ var options = {
       width: 160,
       type: 'radialBar',
     },
-    colors: ['#924AEF'],
+    colors: ['#3377C0'],
     plotOptions: {
       radialBar: {
         hollow: {
@@ -386,7 +386,7 @@ var options = {
         colors: ['#fff']
       }
     },
-    colors: ['#924AEF', '#924AEF', '#924AEF', '#924AEF'],
+    colors: ['#3377C0', '#3377C0', '#3377C0', '#3377C0'],
     
     // title: {
     //   text: 'Leave Statistic',
@@ -538,7 +538,7 @@ var options = {
   // colors: ['#A5A5A5'],
   // markers: {
   //   size: 10,
-  //   colors: '#924AEF',
+  //   colors: '#3377C0',
   //   strokeColors: '#fff',
   //   strokeWidth: 0,
   //   strokeOpacity: 0.9,
@@ -610,7 +610,7 @@ var options = {
       height: 280,
       type: 'radialBar',
     },
-    colors: ['#924AEF'],
+    colors: ['#3377C0'],
     
     plotOptions: {
       radialBar: {

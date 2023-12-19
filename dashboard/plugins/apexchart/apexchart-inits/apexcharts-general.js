@@ -267,7 +267,7 @@ var options = {
         show: false,
       },
     },
-    colors: ['#924AEF', '#E328AF'],
+    colors: ['#3377C0', '#E328AF'],
    
     stroke: {
       curve: 'smooth'
@@ -368,7 +368,7 @@ var options = {
     series: [20, 16, 16, 12, 25, 10],
     labels: ['Primary', 'Promotion', 'Forum', 'Socials', 'Spam', 'Other'],
     fill: {
-      colors: ['#924AEF', '#5ECFFF', '#E328AF', '#FF9325', '#FF4A55', '#DFEDF2']
+      colors: ['#3377C0', '#5ECFFF', '#E328AF', '#FF9325', '#FF4A55', '#DFEDF2']
     },
     plotOptions: {
       pie: {

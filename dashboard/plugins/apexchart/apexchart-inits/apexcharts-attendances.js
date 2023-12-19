@@ -173,7 +173,7 @@ var options = {
         colors: ['#fff']
     }
     },
-    colors: ['#924AEF', '#5ECFFF', '#E328AF'],
+    colors: ['#3377C0', '#5ECFFF', '#E328AF'],
     // title: {
     //   text: 'Attendance Performance',
     //   align: 'left'
@@ -287,7 +287,7 @@ var options = {
     height: 120,
     type: 'radialBar',
     },
-    colors: ['#924AEF'],
+    colors: ['#3377C0'],
     plotOptions: {
     radialBar: {
         hollow: {

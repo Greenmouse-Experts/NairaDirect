@@ -34,7 +34,7 @@ var options = {
         colors: ['#fff']
       }
     },
-    colors: ['#E328AF', '#924AEF',],
+    colors: ['#E328AF', '#3377C0',],
     // title: {
     //   text: 'Recruitment Progress',
     //   align: 'left'
@@ -122,7 +122,7 @@ var options = {
         }
       },
     },
-    colors: ['#924AEF', '#E328AF'],
+    colors: ['#3377C0', '#E328AF'],
    
     stroke: {
       curve: 'smooth'
@@ -234,7 +234,7 @@ var options = {
             {
               from: 76,
               to: 100,
-              color: '#924AEF',
+              color: '#3377C0',
               name: '76-100',
             }
           ]
@@ -275,7 +275,7 @@ var options = {
     stroke: {
       width: 3
     },
-    // colors: ["#924AEF"],
+    // colors: ["#3377C0"],
     
   };
   

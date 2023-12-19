@@ -44,7 +44,7 @@ var options = {
         colors: ['#fff']
       }
     },
-    colors: ['#924AEF', '#5ECFFF', '#E328AF', '#FF9325'],
+    colors: ['#3377C0', '#5ECFFF', '#E328AF', '#FF9325'],
     
     // title: {
     //   text: 'Leave Statistic',
@@ -122,7 +122,7 @@ var options = {
       height: 120,
       type: 'radialBar',
     },
-    colors: ['#924AEF'],
+    colors: ['#3377C0'],
     plotOptions: {
       radialBar: {
         hollow: {

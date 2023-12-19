@@ -33,7 +33,7 @@ var options = {
       colors: ['#fff']
     }
   },
-  colors: ['#E328AF', '#924AEF',],
+  colors: ['#E328AF', '#3377C0',],
   // title: {
   //   text: 'Recruitment Progress',
   //   align: 'left'
@@ -188,7 +188,7 @@ var options = {
       enabled: true
     },
   },
-  colors: ['#924AEF'],
+  colors: ['#3377C0'],
   dataLabels: {
     enabled: false
   },
@@ -255,7 +255,7 @@ var options = {
     width: 200,
     type: 'radialBar',
   },
-  colors: ['#924AEF'],
+  colors: ['#3377C0'],
   plotOptions: {
     radialBar: {
       hollow: {

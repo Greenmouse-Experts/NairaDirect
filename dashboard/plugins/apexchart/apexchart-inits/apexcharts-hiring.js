@@ -23,7 +23,7 @@ var options = {
         }
       },
     },
-    colors: ['#924AEF', '#E328AF'],
+    colors: ['#3377C0', '#E328AF'],
    
     stroke: {
       curve: 'smooth'
@@ -90,7 +90,7 @@ var options = {
       show: false
     },
   },
-  colors: ['#924AEF'],
+  colors: ['#3377C0'],
   dataLabels: {
     enabled: false
   },

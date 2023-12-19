@@ -40,7 +40,7 @@ var options = {
         colors: ['#fff']
       }
     },
-    colors: ['#924AEF', '#5ECFFF', '#E328AF'],
+    colors: ['#3377C0', '#5ECFFF', '#E328AF'],
     
     // title: {
     //   text: 'Leave Statistic',
@@ -128,7 +128,7 @@ var options = {
         enabled: true
       },
     },
-    colors: ['#924AEF'],
+    colors: ['#3377C0'],
     dataLabels: {
       enabled: false
     },
@@ -234,7 +234,7 @@ var options = {
         colors: ['#fff']
       }
     },
-    colors: ['#924AEF', '#E328AF'],
+    colors: ['#3377C0', '#E328AF'],
     
     // title: {
     //   text: 'Leave Statistic',
@@ -381,7 +381,7 @@ var options = {
         enabled: true
       },
     },
-    colors: ['#924AEF'],
+    colors: ['#3377C0'],
     dataLabels: {
       enabled: false
     },
@@ -554,7 +554,7 @@ var options = {
     series: [20, 16, 16, 12, 25, 10],
     labels: ['UI Designer', 'Front-End Developer', 'Back-End Developer', 'UX Researcher', 'Project Manager', 'Other'],
     fill: {
-      colors: ['#924AEF', '#5ECFFF', '#E328AF', '#FF9325', '#FF4A55', '#DFEDF2']
+      colors: ['#3377C0', '#5ECFFF', '#E328AF', '#FF9325', '#FF4A55', '#DFEDF2']
     },
     plotOptions: {
       pie: {

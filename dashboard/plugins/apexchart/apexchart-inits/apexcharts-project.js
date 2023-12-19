@@ -40,7 +40,7 @@ var options = {
       colors: ['#fff']
     }
   },
-  colors: ['#924AEF', '#5ECFFF', '#E328AF', '#FF9325'],
+  colors: ['#3377C0', '#5ECFFF', '#E328AF', '#FF9325'],
   
   // title: {
   //   text: 'Leave Statistic',
@@ -118,7 +118,7 @@ var options = {
     type: 'donut',
     width: '300',
   },
-  colors: ['#924AEF', '#E328AF'],
+  colors: ['#3377C0', '#E328AF'],
   plotOptions: {
     pie: {
       startAngle: -90,
@@ -199,7 +199,7 @@ var options = {
       show: false
     },
   },
-  colors: ['#924AEF'],
+  colors: ['#3377C0'],
   dataLabels: {
     enabled: false
   },
