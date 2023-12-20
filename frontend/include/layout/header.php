@@ -24,12 +24,12 @@
                                 <div class="ml-auto navbar-nav">
                                     <div class="nav-item"><a href="#" data-rb-event-key="#home" class="nav-Nav.link nav-link">Home</a></div>
                                     <div class="nav-item"><a href="#price" data-rb-event-key="#price" class="nav-Nav.link nav-link">Price List</a></div>
-                                    <div class="nav-item"><a href="#portfolio" data-rb-event-key="#portfolio" class="nav-Nav.link nav-link">Referrals</a></div>
+                                    <div class="nav-item"><a href="frontend/referrals.php" data-rb-event-key="#portfolio" class="nav-Nav.link nav-link">Referrals</a></div>
                                     <div class="nav-item"><a href="#testimonial" data-rb-event-key="#testimonial" class="nav-Nav.link nav-link">Testimonials</a></div>
                                     <div class="nav-item"><a href="#app" data-rb-event-key="#app" class="nav-Nav.link nav-link">FAQs</a></div>
-                                    <div class="nav-item"><a href="#blog" data-rb-event-key="#blog" class="nav-Nav.link nav-link">Sign in</a></div>
+                                    <div class="nav-item"><a href="frontend/signin.php" data-rb-event-key="#blog" class="nav-Nav.link nav-link">Sign in</a></div>
                                 </div>
-                                <div class="signin-btn"><a class="btn btn-primary ml-3 text-white" href="/signin">Create Account</a></div>
+                                <div class="signin-btn"><a class="btn btn-primary ml-3 text-white" href="frontend/signup.php">Create Account</a></div>
                             </div>
                         </div>
                     </nav>

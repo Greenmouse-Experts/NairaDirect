@@ -258,7 +258,7 @@
                         </div>
                     </div>
                     <div class="col-xl-5 col-lg-6">
-                        <div class="portfolio_img"><img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1702985079/NairaDirect-Images/cb76524902967a66abd25eb64070e16b_1_hm0bya.png" alt="dashboard" class="img-fluid"></div>
+                        <div class="portfolio_img"><img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1703084891/NairaDirect-Images/bg-dasg_jok9rm.png" alt="dashboard" class="img-fluid"></div>
                     </div>
                 </div>
             </div>
@@ -277,7 +277,7 @@
                 <div class="row">
                     <div class="col-xl-4 col-lg-4 col-md-12">
                         <div class="card trade-app-content">
-                            <div class="card-body"><span><i class="fa fa-mobile text-com fa-2x" aria-hidden="true"></i></span>
+                            <div class="card-body"><span><i class="fa fa-mobile text-com icon-10" aria-hidden="true"></i></span>
                                 <h4 class="card-title">Mobile</h4>
                                 <p>All the power of Naira Direct's cryptocurrency exchange, in the palm of your hand. Log into Naira direct trading app platform today from your mobile devices</p><a href="/" class="text-com fw-bold"> Know More <i class="la la-arrow-right"></i> </a>
                             </div>
@@ -406,7 +406,7 @@
         </div>
         <!-- Faqs section -->
         <div class="blog section-padding">
-            <div class="container">
+            <!-- <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-6">
                         <div class="section-title text-center">
@@ -422,7 +422,7 @@
                                 <div class="card-body"><a href="">
                                         <h4 class="card-title">How is the price calculated?</h4>
                                     </a>
-                                    <p class="card-text opacity-751">The price of Bitcoin and other digital currencies are determined by supply and demand: the buyers who want a certain currency and the sellers who have that currency. Naira Direct does not set the price of Bitcoin or any digital currency.</p>
+                                    <p class="card-text opacity-75">The price of Bitcoin and other digital currencies are determined by supply and demand: the buyers who want a certain currency and the sellers who have that currency. Naira Direct does not set the price of Bitcoin or any digital currency.</p>
                                 </div>
                             </div>
                             <div class="card">
@@ -440,6 +440,50 @@
                                     </a>
                                     <p class="card-text opacity-75">No. Bitcoin, Ethereum and most other digital currencies are divisible. You can spend a small amount of money and buy or sell very small amounts over time.</p>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <!--  -->
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-6">
+                        <div class="section-title text-center">
+                            <h2>Frequently Asked Questions</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="acc-container">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item acc-div">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    How is the price calculated?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">The price of Bitcoin and other digital currencies are determined by supply and demand: the buyers who want a certain currency and the sellers who have that currency. Naira Direct does not set the price of Bitcoin or any digital currency.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item acc-div">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                    Why is the Bitcoin price different on Google?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">There is no global Bitcoin price, it isn't pegged to any currency, country or Bitcoin platform. When you see the price on Google, it is simply showing an estimated, international price.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item acc-div">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                    Do I need to buy a whole Bitcoin?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">No. Bitcoin, Ethereum and most other digital currencies are divisible. You can spend a small amount of money and buy or sell very small amounts over time.</div>
                             </div>
                         </div>
                     </div>
@@ -501,12 +545,13 @@
             </div>
         </div>
         <!-- toggle button -->
-        <div class='position-fixed bottom-0 end-0 bg-trans'>
+        <div class='position-fixed top-20 bg-trans'>
             <button class="switch border-0 bg-trans" data-theme-toggle>
                 <input type="checkbox">
                 <span class="slider"></span>
             </button>
         </div>
+
         <script src="../frontend/assets/js/home.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
