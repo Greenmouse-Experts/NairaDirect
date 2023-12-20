@@ -5903,6 +5903,10 @@ fieldset:disabled .btn {
   margin-bottom: 0;
 }
 
+.card-text{
+  font-size: 14px !important;
+}
+
 .card-link:hover {
   text-decoration: none;
 }

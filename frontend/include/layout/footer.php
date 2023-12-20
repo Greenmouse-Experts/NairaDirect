@@ -17,7 +17,7 @@
             <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                     <div class="bottom-logo"><img class="pb-3" src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1702984668/NairaDirect-Images/logo1_2_agzs2t.png" alt="">
-                        <p class="pe-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis a harum vel incidunt explicabo eveniet possimus reiciendis voluptatum recusandae odio esse, ab ipsam quam reprehenderit, perspiciatis debitis accusamus, illo autem.</p>
+                        <p class="pe-2">Sell bitcoin in Nigeria quickly with easy steps at Naira Direct, which is the safest & secure place to instantly Buy, Sell & Manage your crypto & e-currency portfolio in Nigeria.</p>
                     </div>
                 </div>
                 <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
