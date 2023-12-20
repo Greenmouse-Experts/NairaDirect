@@ -757,14 +757,14 @@
                     </div>
                     <div class="col-xxl-12 col-md-12">
                         <!-- Chart -->
-                    <div class="card border-0 p-5">
-                        <!-- <div class="card-header border-0 d-flex align-items-center gap-4">
+                        <div class="card border-0 p-5">
+                            <!-- <div class="card-header border-0 d-flex align-items-center gap-4">
                             <h4 class="mb-0">Trade Chart</h4>
                         </div> -->
-                        <div class="card-body p-0">
-                            <div id="grouped-stacked-column"></div>
+                            <div class="card-body p-0">
+                                <div id="grouped-stacked-column"></div>
+                            </div>
                         </div>
-                    </div>
                     </div>
                 </div>
             </div>

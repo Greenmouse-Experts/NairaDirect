@@ -200,7 +200,8 @@ p {
     flex-direction: column;
     padding: 16px;
 }
-.tab-content .tab-pane{
+
+.tab-content .tab-pane {
     height: 850px;
     overflow-y: auto;
 }
@@ -285,6 +286,7 @@ p {
     font-weight: 600;
     color: #fff;
 }
+
 .kEiNqmmm {
     margin-top: -20px;
     height: 24px;
@@ -454,7 +456,7 @@ footer .foot {
     font-weight: 500;
 }
 
-.bottomming{
+.bottomming {
     border: 1px solid #e8e8e8;
     border-radius: 7px;
 }
@@ -470,18 +472,19 @@ footer .foot {
     right: 0;
     left: 250px;
     height: 60px;
-    background-color:#fff;
+    background-color: #fff;
 }
 
-.fontting{
+.fontting {
     font-size: 15px !important;
     font-weight: 500 !important;
 }
 
-.depo{
-  color: #3BE25E !important;
+.depo {
+    color: #3BE25E !important;
 }
-.depoT{
+
+.depoT {
     color: #F13004 !important;
 }
 
