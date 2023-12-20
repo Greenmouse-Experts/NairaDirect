@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <title>Trade</title>
+    <title>Actions</title>
 </head>
 <!-- PHP to set the theme class dynamically -->
 
@@ -28,10 +28,7 @@
             <div class="inner-contents">
                 <div class="page-header d-flex align-items-center justify-content-between mr-bottom-30">
                     <div class="left-part">
-                        <h5 class="text-dark">Trade</h5>
-                    </div>
-                    <div class="right-part">
-                        <button class="btn btn-primary rounded-1 ff-heading fs-18 fw-bold py-1" data-bs-toggle="modal" data-bs-target="#newcard"><i class="bi bi-pie-chart-fill me-1"></i> Click to Buy Crypto</button>
+                        <h5 class="text-dark">Actions</h5>
                     </div>
                 </div>
                 <div class="row">

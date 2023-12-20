@@ -13,7 +13,7 @@ body {
 /* ===== Scrollbar CSS ===== */
 /* Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
-    width: 10px;
+    width: 1px;
 }
 
 *::-webkit-scrollbar-thumb {
@@ -200,6 +200,10 @@ p {
     flex-direction: column;
     padding: 16px;
 }
+.tab-content .tab-pane{
+    height: 850px;
+    overflow-y: auto;
+}
 
 .fLpMjG .track {
     height: 850px;
@@ -252,6 +256,41 @@ p {
     width: 58px;
     border-radius: 4px;
     background: #3377C0;
+    padding: 0px 8px;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    line-height: 1;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.kEiNqmm {
+    margin-top: -20px;
+    height: 24px;
+    width: 58px;
+    border-radius: 4px;
+    background: #3377C0;
+    padding: 0px 8px;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    line-height: 1;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #fff;
+}
+.kEiNqmmm {
+    margin-top: -20px;
+    height: 24px;
+    width: 58px;
+    border-radius: 4px;
+    background: #f13005;
     padding: 0px 8px;
     display: inline-flex;
     -webkit-box-align: center;
@@ -415,6 +454,11 @@ footer .foot {
     font-weight: 500;
 }
 
+.bottomming{
+    border: 1px solid #e8e8e8;
+    border-radius: 7px;
+}
+
 /* .movingg{
     float: right;
 } */
@@ -427,6 +471,18 @@ footer .foot {
     left: 250px;
     height: 60px;
     background-color:#fff;
+}
+
+.fontting{
+    font-size: 15px !important;
+    font-weight: 500 !important;
+}
+
+.depo{
+  color: #3BE25E !important;
+}
+.depoT{
+    color: #F13004 !important;
 }
 
 

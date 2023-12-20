@@ -219,7 +219,7 @@
                     </a>
                 </li>
                 <li class="menu-item">
-                    <a href="#">
+                    <a href="actions.php">
                         <span class="nav-icon flex-shrink-0">
                             <i class="bi bi-subtract fs-20"></i>
                         </span>
