@@ -419,4 +419,15 @@ footer .foot {
     float: right;
 } */
 
+.footer {
+    bottom: 0;
+    padding: 20px calc(24px * .75);
+    position: absolute;
+    right: 0;
+    left: 250px;
+    height: 60px;
+    background-color:#fff;
+}
+
+
 /* HEADDER STYEL */

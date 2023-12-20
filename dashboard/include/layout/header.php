@@ -199,7 +199,7 @@
         <div class="kleon-navmenu">
             <ul class="main-menu">
                 <li class="menu-item">
-                    <a href="#">
+                    <a href="welcome.php">
                         <span class="nav-icon flex-shrink-0">
                             <i class="bi bi-grid fs-20"></i>
                         </span>
@@ -209,7 +209,7 @@
                     </a>
                 </li>
                 <li class="menu-item">
-                    <a href="#">
+                    <a href="trade.php">
                         <span class="nav-icon flex-shrink-0">
                             <i class="bi bi-wallet2 fs-20"></i>
                         </span>

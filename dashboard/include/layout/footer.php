@@ -24,11 +24,15 @@
 
 <body>
 
-<footer>
-    <h4 class="text-center foot">
-    Copyright © 2023 NairaDirect. All Right Reserved
-    </h4>
-</footer>
+    <footer class="footer">
+        <div class="col-sm-12">
+            <div class="text-center text-dark">Copyright ©
+                <script>
+                    document.write(new Date().getFullYear())
+                </script> NairaDirect | All Right Reserved
+            </div>
+        </div>
+    </footer>
 </body>
 
 
