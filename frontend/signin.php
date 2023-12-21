@@ -21,7 +21,7 @@
         <div class="signup-con">
             <div class="signup-div">
                 <div class="img-div">
-                    <a href="#"><img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1702984668/NairaDirect-Images/logo1_2_agzs2t.png" alt="logo" /></a>
+                    <a href="/NairaDirect/frontend"><img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1703154148/NairaDirect-Images/Group_48097706_vvxl4g.png" alt="logo" /></a>
                 </div>
                 <div class="main-div">
                     <div class="">
@@ -44,7 +44,7 @@
                         </form>
                     </div>
                     <div>
-                        <p>Don't have an account? <span>Sign Up</span></p>
+                        <p>Don't have an account? <a href="/NairaDirect/frontend/signup.php">Sign Up</a></p>
                     </div>
                 </div>
             </div>

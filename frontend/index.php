@@ -32,13 +32,13 @@
                         <div class="intro-form-exchange">
                             <form method="post" name="myform" class="currency_validate">
                                 <div class="form-group"><label class="mr-sm-2">Send</label>
-                                    <div class="input-group mb-3"><select name="currency" class="form-control">
+                                    <div class="input-group mb-3 mt-1"><select name="currency" class="form-control">
                                             <option data-display="Bitcoin" value="bitcoin">Bitcoin</option>
                                             <option value="litecoin">Litecoin</option>
                                         </select><input type="text" name="usd_amount" class="form-control" value="125.00 USD"></div>
                                 </div>
                                 <div class="form-group"><label class="mr-sm-2">Get</label>
-                                    <div class="input-group mb-3"><select name="currency" class="form-control">
+                                    <div class="input-group mb-3 mt-1"><select name="currency" class="form-control">
                                             <option data-display="Bitcoin" value="bitcoin">Bitcoin</option>
                                             <option value="litecoin">Litecoin</option>
                                         </select><input type="text" name="usd_amount" class="form-control" value="125.00 USD"></div>
@@ -46,7 +46,7 @@
                                         <p class="mb-0">Monthly Limit</p>
                                         <h6 class="mb-0">$49750 remaining</h6>
                                     </div>
-                                </div><a type="submit" name="submit" class="btn btn-success btn-block mt-4 w-100 text-white" href="/signin">Exchange Now<i class="la la-arrow-right"></i></a>
+                                </div><a type="submit" name="submit" class="btn btn-primary btn-block mt-4 w-100 text-white" href="/signin">Exchange Now<i class="la la-arrow-right"></i></a>
                             </form>
                         </div>
                     </div>
@@ -54,8 +54,8 @@
             </div>
         </div>
         <!-- different charts -->
-        <div>
-            <iframe src="https://bit2me.com/widget/crypto-carousel/v1" style="display:block;width:100%;height:40px;" frameborder="0"></iframe>
+        <div class='scroll-animate'>
+            <iframe src="https://bit2me.com/widget/crypto-carousel/v1" style="display:block;width:100%;height:40px;" class="bg-primary" frameborder="0"></iframe>
         </div>
         <!-- <div class="price-grid section-padding">
             <div class="container">
@@ -187,19 +187,22 @@
                 </div>
                 <div class="row">
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
-                        <div class="getstart-content"><span><i class="fa fa-user-plus" aria-hidden="true"></i></span>
+                        <div class="getstart-content">
+                            <img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1703161903/NairaDirect-Images/user_4_ytwjqb.png" alt="user-add" width="140">
                             <h3>Create an account</h3>
                             <p>Sign up for free on our website</p>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
-                        <div class="getstart-content"><span><i class="fa fa-university" aria-hidden="true"></i></span>
+                        <div class="getstart-content">
+                            <img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1703161908/NairaDirect-Images/bank_1_e8kncx.png" alt="bank" width="140">
                             <h3>Link your bank account</h3>
                             <p>Link your bank account to make Naira deposits and withdrawals</p>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
-                        <div class="getstart-content"><span><i class="fa fa-exchange" aria-hidden="true"></i></span>
+                        <div class="getstart-content">
+                            <img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1703161909/NairaDirect-Images/bitcoin_2_ejgv8n.png" alt="bank" width="140">
                             <h3>Start buying &amp; selling</h3>
                             <p>Fund your account with Naira and start trading all your favourite coins!</p>
                         </div>
@@ -223,7 +226,8 @@
                         <div class="portfolio_list">
                             <div class="row">
                                 <div class="col-xl-6">
-                                    <div class="media"><span class="port-icon"><i class="fa fa-signal" aria-hidden="true"></i></span>
+                                    <div class="media">
+                                        <span class="port-icon"><img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1703159988/NairaDirect-Images/pie-chart_dxmomf.png" alt="icon" width='40'></span>
                                         <div class="media-body">
                                             <h4>Manage your portfolio</h4>
                                             <p>Buy and sell popular digital currencies, keep track of them in the one place.</p>
@@ -231,7 +235,10 @@
                                     </div>
                                 </div>
                                 <div class="col-xl-6">
-                                    <div class="media"><span class="port-icon"><i class="fa fa-calendar-check-o" aria-hidden="true"></i></span>
+                                    <div class="media">
+                                        <span class="port-icon">
+                                            <img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1703159987/NairaDirect-Images/schedule_1_xmyz0v.png" alt="schedule" width="40">
+                                        </span>
                                         <div class="media-body">
                                             <h4>Recurring buys</h4>
                                             <p>Invest in cryptocurrency slowly over time by scheduling buys daily, weekly, or monthly.</p>
@@ -239,7 +246,10 @@
                                     </div>
                                 </div>
                                 <div class="col-xl-6">
-                                    <div class="media"><span class="port-icon"><i class="fa fa-lock" aria-hidden="true"></i></span>
+                                    <div class="media">
+                                        <span class="port-icon">
+                                        <img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1703159990/NairaDirect-Images/security_1_zlyjmp.png" alt="shield" width="40">
+                                        </span>
                                         <div class="media-body">
                                             <h4>Vault protection</h4>
                                             <p>For added security, store your funds in a vault with time delayed withdrawals.</p>
@@ -247,7 +257,10 @@
                                     </div>
                                 </div>
                                 <div class="col-xl-6">
-                                    <div class="media"><span class="port-icon"><i class="fa fa-mobile" aria-hidden="true"></i></span>
+                                    <div class="media">
+                                        <span class="port-icon">
+                                            <img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1703159990/NairaDirect-Images/app-development_ke7uvc.png" alt="mobile" width="40">
+                                        </span>
                                         <div class="media-body">
                                             <h4>Mobile View</h4>
                                             <p>Stay on top of the markets with the Naira direct for mobiles.</p>
@@ -277,7 +290,8 @@
                 <div class="row">
                     <div class="col-xl-4 col-lg-4 col-md-12">
                         <div class="card trade-app-content">
-                            <div class="card-body"><span><i class="fa fa-mobile text-com icon-10" aria-hidden="true"></i></span>
+                            <div class="card-body">
+                                <span><img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1703161339/NairaDirect-Images/Group_480977152_crstiv.png" alt="phone" width="50"></span>
                                 <h4 class="card-title">Mobile</h4>
                                 <p>All the power of Naira Direct's cryptocurrency exchange, in the palm of your hand. Log into Naira direct trading app platform today from your mobile devices</p><a href="/" class="text-com fw-bold"> Know More <i class="la la-arrow-right"></i> </a>
                             </div>
@@ -285,7 +299,7 @@
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-12">
                         <div class="card trade-app-content">
-                            <div class="card-body"><span><i class="fa fa-desktop text-com" aria-hidden="true"></i></span>
+                            <div class="card-body"><span><img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1703161338/NairaDirect-Images/Group_480977162_ezlfp4.png" alt="phone" width="100"></span>
                                 <h4 class="card-title">Desktop</h4>
                                 <p>Powerful crypto trading platform for those who mean business. The Naira direct crypto trading experience, tailor-made for your Windows or MacOS device.</p><a href="/" class="text-com fw-bold"> Know More <i class="la la-arrow-right"></i> </a>
                             </div>
@@ -293,7 +307,7 @@
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-12">
                         <div class="card trade-app-content">
-                            <div class="card-body"><span><i class="fa fa-connectdevelop text-com" aria-hidden="true"></i></span>
+                            <div class="card-body"><span><img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1703161338/NairaDirect-Images/Group_480977172_qw84uu.png" alt="phone" width="85"></span>
                                 <h4 class="card-title">API</h4>
                                 <p class="mb-4 pb-3">The Naira direct API is designed to provide an easy and efficient way to integrate your trading application into our platform.</p><a href="/" class="text-com fw-bold"> Know More <i class="la la-arrow-right"></i> </a>
                             </div>
@@ -503,7 +517,7 @@
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 col-md-6">
                         <div class="get-touch-content">
-                            <div class="media"><span><i class="fa fa-shield"></i></span>
+                            <div class="media"><span><img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1703161904/NairaDirect-Images/customer-service_yxwxk5.png" alt="shield" width="40"></span>
                                 <div class="media-body">
                                     <h4>24 / 7 Support</h4>
                                     <p>Got a problem? Just get in touch. Our support team is available 24/7.</p>
@@ -513,7 +527,7 @@
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-6">
                         <div class="get-touch-content">
-                            <div class="media"><span><i class="fa fa-cubes"></i></span>
+                            <div class="media"><span><img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1703161903/NairaDirect-Images/blog_vwkqmq.png" alt="community" width="40"></span>
                                 <div class="media-body">
                                     <h4>Naira Direct Blog</h4>
                                     <p>News and updates from the world’s leading cryptocurrency exchange.</p>
@@ -523,7 +537,7 @@
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-6">
                         <div class="get-touch-content">
-                            <div class="media"><span><i class="fa fa-certificate"></i></span>
+                            <div class="media"><span><img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1703161903/NairaDirect-Images/briefcase_1_e3uh21.png" alt="community" width="40"></span>
                                 <div class="media-body">
                                     <h4>Careers</h4>
                                     <p>Help build the future of technology. Start your new career at Tradio.</p>
@@ -533,7 +547,7 @@
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-6">
                         <div class="get-touch-content">
-                            <div class="media"><span><i class="fa fa-life-ring"></i></span>
+                            <div class="media"><span><img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1703161904/NairaDirect-Images/group-users_c8com8.png" alt="community" width="40"></span>
                                 <div class="media-body">
                                     <h4>Community</h4>
                                     <p>Naira direct is global. Join the discussion in our worldwide communities.</p>
@@ -544,14 +558,6 @@
                 </div>
             </div>
         </div>
-        <!-- toggle button -->
-        <div class='position-fixed top-20 bg-trans'>
-            <button class="switch border-0 bg-trans" data-theme-toggle>
-                <input type="checkbox">
-                <span class="slider"></span>
-            </button>
-        </div>
-
         <script src="../frontend/assets/js/home.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
