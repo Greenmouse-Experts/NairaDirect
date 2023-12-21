@@ -44,7 +44,6 @@
                                                     <h2 class="fs-18 mb-0">49,560.57</h2>
                                                 </div>
                                             </div>
-
                                             <div>
                                                 <p class="text-gray mb-0"><span class="text-success fw-bold"><i class="bi bi-graph-up-arrow"></i> +0.5%</span> BTC
                                                 </p>
