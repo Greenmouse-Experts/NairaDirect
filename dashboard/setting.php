@@ -19,7 +19,7 @@
 </head>
 <!-- PHP to set the theme class dynamically -->
 
-<?php include('../include/layout/header.php'); ?>
+<?php include('../dashboard/include/layout/header.php'); ?>
 
 <body>
     <!-- Main Wrapper-->
@@ -108,7 +108,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn mt-3 btn-primary w-10 text-white rounded-1 lh-15 ff-heading">Save Changes</a>
+                                            <button type="submit" class="btn mt-3 btn-primary w-10 text-white rounded-1 lh-15 ff-heading">Save Changes</button>
                                         </form>
                                     </div>
                                 </div>
@@ -150,7 +150,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn mt-3 btn-primary w-10 text-white rounded-1 lh-15 ff-heading">Update Bank</a>
+                                            <button type="submit" class="btn mt-3 btn-primary w-10 text-white rounded-1 lh-15 ff-heading">Update Bank</button>
                                         </form>
                                     </div>
                                 </div>
@@ -221,7 +221,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn mt-3 mb-4 btn-primary w-10 text-white rounded-1 lh-15 ff-heading">Update Quetions</a>
+                                            <button type="submit" class="btn mt-3 mb-4 btn-primary w-10 text-white rounded-1 lh-15 ff-heading">Update Quetions</button>
                                         </form>
                                         <form class="form-horizontal mt-2 " method="post">
                                             <p class="mb-3">
@@ -235,7 +235,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn mt-3 btn-primary w-10 text-white rounded-1 lh-15 ff-heading">Update 2fa</a>
+                                            <button type="submit" class="btn mt-3 btn-primary w-10 text-white rounded-1 lh-15 ff-heading">Update 2fa</button>
                                         </form>
                                     </div>
                                 </div>
@@ -313,7 +313,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn mt-3 btn-primary w-10 text-white rounded-1 lh-15 ff-heading">Submit</a>
+                                            <button type="submit" class="btn mt-3 btn-primary w-10 text-white rounded-1 lh-15 ff-heading">Submit</button>
                                         </form>
                                     </div>
                                 </div>

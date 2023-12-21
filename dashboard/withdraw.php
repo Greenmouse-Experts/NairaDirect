@@ -83,7 +83,7 @@
                                                     <p class="text-gray float-end">₦0.00</p>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn mt-5 btn-primary w-10 text-white rounded-1 lh-15 ff-heading">Withdraw Now</a>
+                                            <button type="submit" class="btn mt-5 btn-primary w-10 text-white rounded-1 lh-15 ff-heading">Withdraw Now</button>
                                         </form>
                                     </div>
                                 </div>
@@ -91,41 +91,28 @@
                                 <!-- Tab Content Second  -->
                                 <div class="tab-pane fade" id="tab-socials" role="tabpanel">
                                     <div class="card-body p-0">
+                                        <p class="text-dark fw-bold mb-3">
+                                            Deposit Method
+                                        </p>
                                         <form class="form-horizontal" method="post">
                                             <div class="row">
                                                 <div class="col-lg-6">
                                                     <div class="form-group">
-                                                        <label for="" class="mb-2 form-label">Account Name</label>
-                                                        <input type="text" class="form-control" name="fname" value="" placeholder="Account name" required>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-6">
-                                                    <div class="form-group">
-                                                        <label for="" class="mb-2 form-label">Bank Name</label>
-                                                        <input type="text" class="form-control" name="fname" value="" placeholder="Enter Bank name" required>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-6">
-                                                    <div class="form-group">
-                                                        <label for="" class="mb-2 form-label">Account Number</label>
-                                                        <input type="tel" class="form-control" name="fname" value="" placeholder="1234567890" required>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-6">
-                                                    <div class="form-group">
-                                                        <label for="" class="mb-2 form-label">Secret Question</label>
+                                                        <label for="" class="mb-2 form-label">Verify Identity To Deposit Money</label>
                                                         <select class="select" name="" id="" required>
                                                             <option value="">Please select</option>
-                                                            <option data-value="What is the name of your favourite pet?">What is the name of your favourite pet?</option>
-                                                            <option value="In what city were you born?">In what city were you born?</option>
-                                                            <option value="What high school did you attend?">What high school did you attend?</option>
-                                                            <option value="What is the name of your first school?">What is the name of your first school?</option>
-                                                            <option value="What is your favourite movie?">What is your favourite movie?</option>
+                                                            <option data-value="Verify your identity to deposit money">Verify your identity to deposit money</option>
                                                         </select>
                                                     </div>
                                                 </div>
+                                                <p class="mb-3 text-gray">
+                                                    <i class="bi bi-dot text-bg-danger me-1"></i> <a href="setting.php"> Click here</a> to verify your identity to be able to deposit Naira.
+                                                </p>
+                                                <p class="mb-4 text-gray">
+                                                <i class="bi bi-dot text-bg-danger me-1"></i> After verification, you   can transfer money to Naira Direct bank account number and get funds in your naira wallet instantly.
+                                                </p>
                                             </div>
-                                            <a href="#" class="btn mt-3 btn-primary w-10 text-white rounded-1 lh-15 ff-heading">Update Bank</a>
+                                            <button type="submit" class="btn mt-3 btn-primary w-10 text-white rounded-1 lh-15 ff-heading">Update Bank</button>
                                         </form>
                                     </div>
                                 </div>
@@ -221,6 +208,47 @@
             </div>
         </div>
     </main>
+    <!-- Modal: New Card -->
+    <div class="modal fade" id="newcard" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="card border-0 m-0">
+                    <div class="card-header bg-transparent border-0 p-5 pb-0">
+                        <h4 class="firstly">Add Bank</h4>
+                        <p class="text-gray">Kindly add bank details below</p>
+                    </div>
+
+                    <div class="card-body pt-3">
+                        <form class="" method="post">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <label class="form-label">Account Name</label>
+                                        <input type="text" class="form-control" name="" value="Hamzat ..." placeholder="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <label class="form-label">Account Number</label>
+                                        <input type="tel" class="form-control" name="" value="0000 0000 0000 0000" placeholder="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <label class="form-label">Bank Name</label>
+                                        <input type="text" class="form-control" name="" value="Bank Name" placeholder="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group mb-0">
+                                <button type="submit" class="btn btn-primary rounded-1 m-0">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Core JS -->
     <script src="assets/js/jquery-3.6.0.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
