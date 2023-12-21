@@ -23,7 +23,7 @@
         <div class="maincol-con">
             <div class="signcol-con">
                 <div class="img-div">
-                    <a href="/NairaDirect/frontend"><img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1703154148/NairaDirect-Images/Group_48097706_vvxl4g.png" alt="logo" /></a>
+                    <a href="https://nairadirect.victornwadinobi.com/frontend/"><img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1703154148/NairaDirect-Images/Group_48097706_vvxl4g.png" alt="logo" /></a>
                 </div>
                 <div class="main-div">
                     <div class="">

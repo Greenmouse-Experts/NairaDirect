@@ -17,7 +17,7 @@
             <div class='row px-2'>
                 <div class='p-0 bg-trans'>
                     <nav class='navbar navbar-expand-lg align-items-center justify-content-between'>
-                        <a class="navbar-brand" href="#"><img id="logo" src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1703154148/NairaDirect-Images/Group_48097706_vvxl4g.png" alt="Logo" draggable="false" width="180" /></a>
+                        <a class="navbar-brand" href="https://nairadirect.victornwadinobi.com/frontend/"><img id="logo" src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1703154148/NairaDirect-Images/Group_48097706_vvxl4g.png" alt="Logo" draggable="false" width="180" /></a>
                         <button aria-controls="basic-navbar-nav" type="button" aria-label="Toggle navigation" class="navbar-toggler collapsed"><span class="navbar-toggler-icon"></span></button>
                         <div class="navbar-collapse collapse flex-grow-0">
                             <div data-nav="list" class="d-flex align-items-center gap-3">
