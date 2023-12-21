@@ -19,7 +19,7 @@
 </head>
 <!-- PHP to set the theme class dynamically -->
 
-<?php include('../dashboard/include/layout/header.php'); ?>
+<?php include('../include/layout/header.php'); ?>
 
 <body>
     <!-- Main Wrapper-->

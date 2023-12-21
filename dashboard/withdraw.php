@@ -15,11 +15,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <title>Setting Profile</title>
+    <title>Withdraw</title>
 </head>
 <!-- PHP to set the theme class dynamically -->
 
-<?php include('../include/layout/header.php'); ?>
+<?php include('../dashboard/include/layout/header.php'); ?>
 
 <body>
     <!-- Main Wrapper-->
@@ -28,8 +28,10 @@
             <div class="inner-contents">
                 <div class="page-header d-flex align-items-center justify-content-between mr-bottom-30">
                     <div class="left-part">
-                        <h5 class="text-dark">My Profile</h5>
-                        <p class="text-gray mb-0">Manage your information and security to make Nairadirect work better for you.</p>
+                        <h5 class="text-dark">Withdraw Wallet</h5>
+                    </div>
+                    <div class="right-part">
+                        <button class="btn btn-primary rounded-1 ff-heading fs-14 py-1" data-bs-toggle="modal" data-bs-target="#newcard"><i class="bi bi-bank me-1"></i>Add / Edit Bank</button>
                     </div>
                 </div>
                 <div class="col-xxl-12 col-md-12">
@@ -38,16 +40,13 @@
                             <div class="d-flex align-items-center gap-5 border-bottom border-1 border-light-200">
                                 <ul class="nav nav-tabs nav-classic-icon inbox-tab" id="pills-tab" role="tablist">
                                     <li class="nav-item">
-                                        <a class="nav-link fontting active text-dark fs-11" href="#tab-important" data-bs-toggle="tab" role="tab"><i class="bi bi-person-check-fill me-3"></i> Personal Information</a>
+                                        <a class="nav-link fontting active text-dark fs-11" href="#tab-important" data-bs-toggle="tab" role="tab"><i class="bi bi-wallet-fill me-3"></i> Withdraw Naira</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link fontting fs-11 text-dark" href="#tab-socials" data-bs-toggle="tab" role="tab"><i class="bi bi-bank2 me-3"></i>Bank</a>
+                                        <a class="nav-link fontting fs-11 text-dark" href="#tab-socials" data-bs-toggle="tab" role="tab"><i class="bi bi-bank2 me-3"></i> Deposit Naira</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link fontting fs-11 text-dark" href="#tab-promotion" data-bs-toggle="tab" role="tab"><i class="bi bi-file-earmark-lock-fill me-3"></i> Security</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link fontting fs-11 text-dark" href="#tab-verify" data-bs-toggle="tab" role="tab"><i class="bi bi-check-circle-fill me-3"></i>Verify Identity</a>
+                                        <a class="nav-link fontting fs-11 text-dark" href="#tab-promotion" data-bs-toggle="tab" role="tab"><i class="bi bi-card-list me-3"></i> Transactions</a>
                                     </li>
                                 </ul>
                             </div>
@@ -61,54 +60,30 @@
                                             <div class="row">
                                                 <div class="col-lg-6">
                                                     <div class="form-group">
-                                                        <label for="" class="mb-2 form-label">Full Name</label>
-                                                        <input type="text" class="form-control" name="fname" value="" placeholder="Enter Full name" required>
+                                                        <label for="" class="mb-2 form-label">Bank Account</label>
+                                                        <input type="tel" class="form-control" name="fname" value="" placeholder="Enter Bank Account" required>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div class="form-group">
-                                                        <label for="" class="mb-2 form-label">Username</label>
-                                                        <input type="text" class="form-control" name="lname" value="" placeholder="Enter username" required>
+                                                        <label for="" class="mb-2 form-label">Enter Your Amount</label>
+                                                        <input type="tel" class="form-control" name="lname" value="" placeholder="Enter Your Amount" required>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-6">
-                                                    <div class="form-group">
-                                                        <label for="" class="mb-2 form-label">Email</label>
-                                                        <input type="email" class="form-control" name="email" value="" placeholder="Enter Email" required>
-                                                    </div>
+                                                <div class="col-lg-6 mb-3">
+                                                    <p class="text-gray"><i class="bi bi-dot text-bg-danger me-2"></i>Transfer Fee</p>
+                                                </div>
+                                                <div class="col-lg-6 mb-3">
+                                                    <p class="text-gray float-end">0.2% of your withdrawal amount</p>
                                                 </div>
                                                 <div class="col-lg-6">
-                                                    <div class="form-group">
-                                                        <label for="" class="mb-2 form-label">Phone Number</label>
-                                                        <input type="Tel" class="form-control" name="phone" value="" placeholder="Enter phone number" required>
-                                                    </div>
+                                                    <p class="text-gray"><i class="bi bi-dot text-bg-danger me-1"></i> Current Balance</p>
                                                 </div>
                                                 <div class="col-lg-6">
-                                                    <div class="form-group">
-                                                        <label for="" class="mb-2 form-label">Date of Birth</label>
-                                                        <input type="date" class="form-control" name="password" value="" placeholder="Type Password" required>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-6">
-                                                    <div class="form-group">
-                                                        <label for="" class="mb-2 form-label">Password</label>
-                                                        <input type="password" class="form-control" name="c_password" value="" placeholder="Type Password" required>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-6">
-                                                    <div class="form-group">
-                                                        <label for="" class="mb-2 form-label">Gender</label>
-                                                        <input type="text" class="form-control" name="c_password" value="" placeholder="Male or Female" required>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-6">
-                                                    <div class="form-group">
-                                                        <label for="" class="mb-2 form-label">Photo</label>
-                                                        <input type="file" class="form-control" required>
-                                                    </div>
+                                                    <p class="text-gray float-end">₦0.00</p>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn mt-3 btn-primary w-10 text-white rounded-1 lh-15 ff-heading">Save Changes</a>
+                                            <a href="#" class="btn mt-5 btn-primary w-10 text-white rounded-1 lh-15 ff-heading">Withdraw Now</a>
                                         </form>
                                     </div>
                                 </div>
@@ -239,84 +214,6 @@
                                         </form>
                                     </div>
                                 </div>
-
-                                <!-- Tab Content Fourth  -->
-                                <div class="tab-pane fade" id="tab-verify" role="tabpanel">
-                                    <div class="card-body p-0">
-                                        <form class="form-horizontal" method="post">
-                                            <div class="row">
-                                                <div class="col-lg-4">
-                                                    <div class="form-group">
-                                                        <label for="" class="mb-2 form-label">First Name</label>
-                                                        <input type="text" class="form-control" name="fname" value="" placeholder="Enter First name" required>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-4">
-                                                    <div class="form-group">
-                                                        <label for="" class="mb-2 form-label">Middle Name</label>
-                                                        <input type="text" class="form-control" name="fname" value="" placeholder="Enter Middle name" required>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-4">
-                                                    <div class="form-group">
-                                                        <label for="" class="mb-2 form-label">Username</label>
-                                                        <input type="text" class="form-control" name="lname" value="" placeholder="Enter username" required>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-4">
-                                                    <div class="form-group">
-                                                        <label for="" class="mb-2 form-label">Date of Birth</label>
-                                                        <input type="date" class="form-control" name="lname" required>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-4">
-                                                    <div class="form-group">
-                                                        <label for="" class="mb-2 form-label">Bank Name</label>
-                                                       <select name="" class="select" id="">
-                                                        <option value="">Select Bank</option>
-                                                        <option value="">Hamzat Bank</option>
-                                                       </select>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-4">
-                                                    <div class="form-group">
-                                                        <label for="" class="mb-2 form-label">Account Number</label>
-                                                        <input type="tel" class="form-control" placeholder="1234567890"  name="lname" required>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-4">
-                                                    <div class="form-group">
-                                                        <label for="" class="mb-2 form-label">Bank Verification Number (BVN)</label>
-                                                        <input type="tel" class="form-control" name="lname" placeholder="1234567890" required>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-4">
-                                                    <div class="form-group">
-                                                        <label for="" class="mb-2 form-label">Main Phone Number</label>
-                                                        <input type="tel" class="form-control" name="password" value="" placeholder="Main Phone Number" required>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-4">
-                                                    <div class="form-group">
-                                                        <label for="" class="mb-2 form-label">Second Phone Number (Optional)</label>
-                                                        <input type="tel" class="form-control" name="password" value="" placeholder="Second Phone Number (Optional)" required>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-4">
-                                                    <div class="form-group">
-                                                        <label for="" class="mb-2 form-label">Gender</label>
-                                                       <select name="" class="select" id="">
-                                                        <option value="">Select option</option>
-                                                        <option value="">Male</option>
-                                                        <option value="">Female</option>
-                                                       </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <a href="#" class="btn mt-3 btn-primary w-10 text-white rounded-1 lh-15 ff-heading">Submit</a>
-                                        </form>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -373,7 +270,6 @@
     <script src="assets/js/theme.js"></script>
 
 </body>
-
 <?php include('../dashboard/include/layout/footer.php'); ?>
 
 </html>
