@@ -10,7 +10,7 @@
     <link href="assets/img/apple-touch-icon-144x144.html" rel="apple-touch-icon" sizes="144x144">
     <link rel="stylesheet" href="assets/css/main.css" id="stylesheet">
     <link rel="stylesheet" href="assets/css/dashstyle.css" id="stylesheet">
-    <link rel="shortcut icon" href="https://res.cloudinary.com/greenmouse-tech/image/upload/v1702897719/NairaDirect-Images/iyggly6czgiesicqthmh.png" type="image/x-icon">
+    <link rel="shortcut icon" href="https://res.cloudinary.com/greenmouse-tech/image/upload/v1703153357/NairaDirect-Images/Group_48097704_2_qfdtgb.png" type="image/x-icon">
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -56,7 +56,7 @@
                             <div class="card-body">
                                 <div class="tab-content">
                                     <!-- Tab Content First  -->
-                                    <div class="tab-pane fade show active" id="tab-important" role="tabpanel">
+                                    <div class="tab-pane panonhh fade show active" id="tab-important" role="tabpanel">
                                         <div class="crypto-item bottomming mb-1" style="opacity: 1; transform: translateY(0px);">
                                             <i class="bi bi-star me-2"></i>
                                             <div class="crypto-icon">
@@ -229,12 +229,12 @@
                                     </div>
 
                                     <!-- Tab Content Second  -->
-                                    <div class="tab-pane fade" id="tab-socials" role="tabpanel">
+                                    <div class="tab-pane panonhh fade" id="tab-socials" role="tabpanel">
                                         B
                                     </div>
 
                                     <!-- Tab Content Third  -->
-                                    <div class="tab-pane fade" id="tab-promotion" role="tabpanel">
+                                    <div class="tab-pane panonhh fade" id="tab-promotion" role="tabpanel">
                                         <div class="crypto-item bottomming mb-2" style="opacity: 1; transform: translateY(0px);">
                                             <i class="bi bi-star-fill me-1"></i>
                                             <div class="crypto-icon">

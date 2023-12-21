@@ -186,11 +186,11 @@
     <div class="kleon-vertical-nav">
         <!-- Logo  -->
         <div class="logo d-flex align-items-center justify-content-between">
-            <a href="#" class="d-flex align-items-center gap-3 flex-shrink-0">
-                <img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1702931811/eyvre8n6kz9a18vadbzl-removebg-preview_gegkpj.png" alt="logo">
+            <a href="#" class="d-flex align-items-center gap-1 flex-shrink-0">
+                <!-- <img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1702931811/eyvre8n6kz9a18vadbzl-removebg-preview_gegkpj.png" alt="logo"> -->
                 <div class="position-relative flex-shrink-0">
-                    <!-- <img src="assets/img/logo-text.svg" alt="" class="logo-text"> -->
-                    <img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1702931811/eyvre8n6kz9a18vadbzl-removebg-preview_gegkpj.png" alt="" class="logo-text-white">
+                    <img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1703153357/NairaDirect-Images/Group_48097706_kmstz1.png" alt="" class="logo-text hhhhh">
+                    <img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1703151458/NairaDirect-Images/Group_48097704_1_aoelmz.png" alt="" class="logo-text-white align-self-lg-autoo">
                 </div>
             </a>
             <button type="button" class="kleon-vertical-nav-toggle"><i class="bi bi-list"></i></button>
@@ -269,12 +269,12 @@
                     </a>
                 </li>
                 <li class="menu-item">
-                    <a href="#">
+                    <a href="setting.php">
                         <span class="nav-icon flex-shrink-0">
-                            <i class="bi bi-info-circle fs-20"></i>
+                            <i class="bi bi-gear fs-20"></i>
                         </span>
                         <span class="nav-text">
-                            InCrpto Info
+                            Setting
                         </span>
                     </a>
                 </li>

@@ -27,9 +27,9 @@
                                     <div class="nav-item"><a href="frontend/referrals.php" data-rb-event-key="#portfolio" class="nav-Nav.link nav-link">Referrals</a></div>
                                     <div class="nav-item"><a href="#testimonial" data-rb-event-key="#testimonial" class="nav-Nav.link nav-link">Testimonials</a></div>
                                     <div class="nav-item"><a href="#app" data-rb-event-key="#app" class="nav-Nav.link nav-link">FAQs</a></div>
-                                    <div class="nav-item"><a href="frontend/signin.php" data-rb-event-key="#blog" class="nav-Nav.link nav-link">Sign in</a></div>
+                                    <div class="nav-item"><a href="signin.php" data-rb-event-key="#blog" class="nav-Nav.link nav-link">Sign in</a></div>
                                 </div>
-                                <div class="signin-btn"><a class="btn btn-primary ml-3 text-white" href="frontend/signup.php">Create Account</a></div>
+                                <div class="signin-btn"><a class="btn btn-primary ml-3 text-white" href="signup.php">Create Account</a></div>
                             </div>
                         </div>
                     </nav>
@@ -42,4 +42,3 @@
 </body>
 
 </html>
-
