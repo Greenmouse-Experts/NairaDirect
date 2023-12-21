@@ -201,10 +201,11 @@ p {
     padding: 16px;
 }
 
-.tab-content .tab-pane {
-    height: 850px;
+.tab-content .panonhh {
+    height: 850px !important;
     overflow-y: auto;
 }
+
 
 .fLpMjG .track {
     height: 850px;
@@ -460,19 +461,9 @@ footer .foot {
     border: 1px solid #e8e8e8;
     border-radius: 7px;
 }
-
-/* .movingg{
-    float: right;
-} */
-
 .footer {
-    bottom: 0;
-    padding: 20px calc(24px * .75);
-    position: absolute;
-    right: 0;
-    left: 250px;
-    height: 60px;
-    background-color: #fff;
+    position: relative;
+    left: 80px;
 }
 
 .fontting {
@@ -488,5 +479,31 @@ footer .foot {
     color: #F13004 !important;
 }
 
+.hhhhh {
+    width: 200px !important;
+}
+
+.alll tr th {
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    background-color: #3377C0;
+    color: #fff !important;
+    border-radius: 5px 5px 0px 0px;
+    text-align: center !important;
+}
+
+.alllk tr td {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    text-align: center !important;
+}
+
+/* .align-self-lg-autoo{
+    width: 100px !important;
+} */
+
+/* .hhhhh{
+    width: 100px !important;
+} */
 
 /* HEADDER STYEL */

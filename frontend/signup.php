@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Naira Direct</title>
-    <link rel="icon" type="image/x-icon" href="https://res.cloudinary.com/greenmouse-tech/image/upload/v1702897719/NairaDirect-Images/iyggly6czgiesicqthmh.png">
+    <link rel="icon" type="image/x-icon" href="https://res.cloudinary.com/greenmouse-tech/image/upload/v1703153357/NairaDirect-Images/Group_48097704_2_qfdtgb.png">
     <link rel="stylesheet" href="../frontend/assets/css/bootstrap.css">
     <link rel="stylesheet" href="../frontend/assets/css/style.css">
     <link rel="stylesheet" href="../frontend/assets/css/auth.css">
@@ -93,7 +93,7 @@
                         </form>
                     </div>
                     <div>
-                        <p>Already have an account? <a href="/NairaDirect/frontend/signin.php">Sign In</a></p>
+                        <p>Already have an account? <a href="signin.php">Sign In</a></p>
                     </div>
                 </div>
             </div>

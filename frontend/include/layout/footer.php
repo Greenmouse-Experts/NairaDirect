@@ -24,10 +24,10 @@
                     <div class="bottom-widget">
                         <h4 class="widget-title">Calculator</h4>
                         <ul>
-                            <li><a href="/">Bitcoin Calculator</a></li>
-                            <li><a href="/">Ehereum Calculator</a></li>
-                            <li><a href="/">Bitcoin Cash Calculator</a></li>
-                            <li><a href="/">Tether Calculator</a></li>
+                            <li><a href="#">Bitcoin Calculator</a></li>
+                            <li><a href="#">Ehereum Calculator</a></li>
+                            <li><a href="#">Bitcoin Cash Calculator</a></li>
+                            <li><a href="#">Tether Calculator</a></li>
                         </ul>
                     </div>
                 </div>
@@ -36,9 +36,9 @@
                         <h4 class="widget-title">Product & Services</h4>
                         <ul>
                             <li><a href="/">Support</a></li>
-                            <li><a href="/NairaDirect/frontend/bitcoin-wallet.php">Bitcoin Wallet</a></li>
-                            <li><a href="/NairaDirect/frontend/naira-wallet.php">Naira Wallet</a></li>
-                            <li><a href="/NairaDirect/frontend/buynsell.php">Buy/Sell E-Currencies</a></li>
+                            <li><a href="bitcoin-wallet.php">Bitcoin Wallet</a></li>
+                            <li><a href="naira-wallet.php">Naira Wallet</a></li>
+                            <li><a href="buynsell.php">Buy/Sell E-Currencies</a></li>
                             <li><a href="#">Quick buy and sell bitcoin</a></li>
                             <li><a href="#">Instant Naira Payment</a></li>
                         </ul>
@@ -50,17 +50,17 @@
                         <div class="row">
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                                 <ul>
-                                    <li><a href="/NairaDirect/frontend/about.php">About Us</a></li>
+                                    <li><a href="about.php">About Us</a></li>
                                     <li><a href="https://buysellbitcoin.website/">Blog/News</a></li>
-                                    <li><a href="/NairaDirect/frontend/contact.php">Contact Us</a></li>
-                                    <li><a href="/NairaDirect/frontend/referrals.php">Referrals & Affiliates</a></li>
+                                    <li><a href="contact.php">Contact Us</a></li>
+                                    <li><a href="referrals.php">Referrals & Affiliates</a></li>
                                 </ul>
                             </div>
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                                 <ul>
-                                    <li><a href="/NairaDirect/frontend/terms.php">Terms & Conditions</a></li>
-                                    <li><a href="/NairaDirect/frontend/privacy.php">Privacy Policy</a></li>
-                                    <li><a href="/NairaDirect/frontend/guide.php">Guide</a></li>
+                                    <li><a href="terms.php">Terms & Conditions</a></li>
+                                    <li><a href="privacy.php">Privacy Policy</a></li>
+                                    <li><a href="guide.php">Guide</a></li>
                                 </ul>
                             </div>
                         </div>

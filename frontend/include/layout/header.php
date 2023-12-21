@@ -22,14 +22,14 @@
                         <div class="navbar-collapse collapse flex-grow-0">
                             <div data-nav="list" class="d-flex align-items-center gap-3">
                                 <div class="ml-auto navbar-nav">
-                                    <div class="nav-item"><a href="/NairaDirect/frontend" data-rb-event-key="#home" class="nav-Nav.link nav-link">Home</a></div>
+                                    <div class="nav-item"><a href="/" data-rb-event-key="#home" class="nav-Nav.link nav-link">Home</a></div>
                                     <div class="nav-item"><button data-rb-event-key="#price" data-bs-toggle="modal" data-bs-target="#priceModal" class="nav-Nav.link nav-link">Price List</button></div>
-                                    <div class="nav-item"><a href="/NairaDirect/frontend/referrals.php" data-rb-event-key="#portfolio" class="nav-Nav.link nav-link">Referrals</a></div>
-                                    <!-- <div class="nav-item"><a href="/NairaDirect/frontend/contact.php" data-rb-event-key="#testimonial" class="nav-Nav.link nav-link">Contact Us</a></div> -->
-                                    <div class="nav-item"><a href="/NairaDirect/frontend/about.php" data-rb-event-key="#app" class="nav-Nav.link nav-link">About Us</a></div>
-                                    <div class="nav-item"><a href="/NairaDirect/frontend/signin.php" data-rb-event-key="#blog" class="nav-Nav.link nav-link">Sign in</a></div>
+                                    <div class="nav-item"><a href="referrals.php" data-rb-event-key="#portfolio" class="nav-Nav.link nav-link">Referrals</a></div>
+                                    <!-- <div class="nav-item"><a href="contact.php" data-rb-event-key="#testimonial" class="nav-Nav.link nav-link">Contact Us</a></div> -->
+                                    <div class="nav-item"><a href="about.php" data-rb-event-key="#app" class="nav-Nav.link nav-link">About Us</a></div>
+                                    <div class="nav-item"><a href="signin.php" data-rb-event-key="#blog" class="nav-Nav.link nav-link">Sign in</a></div>
                                 </div>
-                                <div class="signin-btn"><a class="btn btn-primary ml-3 text-white" href="/NairaDirect/frontend/signup.php">Create Account</a></div>
+                                <div class="signin-btn"><a class="btn btn-primary ml-3 text-white" href="signup.php">Create Account</a></div>
                             </div>
                         </div>
                     </nav>

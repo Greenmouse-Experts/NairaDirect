@@ -44,7 +44,6 @@
                                                     <h2 class="fs-18 mb-0">49,560.57</h2>
                                                 </div>
                                             </div>
-
                                             <div>
                                                 <p class="text-gray mb-0"><span class="text-success fw-bold"><i class="bi bi-graph-up-arrow"></i> +0.5%</span> BTC
                                                 </p>
@@ -232,7 +231,7 @@
                                     </div>
                                     <div class="d-flex letting align-items-center gap-2 gap-sm-1 flex-wrap">
                                         <button href="#" class="btn btn-outline-primary ff-heading fs-14 fw-bold" data-bs-toggle="modal" data-bs-target="#newcard">Sell</button>
-                                        <button href="#" class="btn btn-primary ff-heading fs-14 fw-bold" data-bs-toggle="modal" data-bs-target="#newcard">Buy</button>
+                                        <button href="#" class="btn btn-primary ff-heading fs-14 fw-bold">Buy</button>
                                     </div>
                                 </div>
                                 <div class="track card">
@@ -399,42 +398,43 @@
                         <h4 class="firstly">Payment</h4>
                         <p class="text-gray">USD Visa/Mastercard</p>
                     </div>
+
                     <div class="card-body pt-3">
                         <form class="" method="post">
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="form-group">
                                         <label class="form-label">Card Name</label>
-                                        <input type="tel" class="form-control" value="Hamzat ..." placeholder="">
+                                        <input type="tel" class="form-control" name="" value="Hamzat ..." placeholder="">
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-lg-4">
                                     <div class="form-group">
                                         <label class="form-label">Card Number</label>
-                                        <input type="tel" class="form-control" value="0000 0000 0000 0000" placeholder="">
+                                        <input type="tel" class="form-control" name="" value="0000 0000 0000 0000" placeholder="">
                                     </div>
                                 </div>
                                 <div class="col-lg-4">
                                     <div class="form-group">
                                         <label class="form-label">Expiration Date</label>
-                                        <input type="date" class="form-control" value="MM/YY" placeholder="">
+                                        <input type="date" class="form-control" name="" value="MM/YY" placeholder="">
                                     </div>
                                 </div>
                                 <div class="col-lg-4">
                                     <div class="form-group">
                                         <label class="form-label">CVV</label>
-                                        <input type="tel" class="form-control" value="000" placeholder="">
+                                        <input type="tel" class="form-control" name="" value="000" placeholder="">
                                     </div>
                                 </div>
                                 <div class="col-lg-4">
                                     <div class="form-group">
                                         <label class="form-label">Card Pin</label>
-                                        <input type="tel" class="form-control" value="000" placeholder="">
+                                        <input type="tel" class="form-control" name="" value="000" placeholder="">
                                     </div>
                                 </div>
                             </div>
                             <div class="form-group mb-0">
-                                <button type="submit" class="btn btn-primary m-0 fs-14">Continue</button>
+                                <button type="submit" class="btn btn-primary m-0">Submit</button>
                             </div>
                         </form>
                     </div>

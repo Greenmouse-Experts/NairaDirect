@@ -66,10 +66,7 @@
                                         <div class="card-body p-3">
                                             <ul class="list-unstyled p-0 m-0">
                                                 <li>
-                                                    <a href="profile.html" class="fs-14 fw-normal text-dark d-block p-1"><i class="bi bi-person me-2"></i> Profile</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#" class="fs-14 fw-normal text-dark d-block p-1"><i class="bi bi-gear me-2"></i> Setting & Privacy</a>
+                                                    <a href="setting.php" class="fs-14 fw-normal text-dark d-block p-1"><i class="bi bi-person me-2"></i> Profile</a>
                                                 </li>
                                             </ul>
 
@@ -142,7 +139,7 @@
                         </li>
                         <li class="nav-item nav-author px-3">
                             <a href="#" class="nav-toggler" data-bs-toggle="dropdown" aria-expanded="false">
-                                <img src="assets/img/nav_author.jpg" alt="img" width="40" class="rounded-2">
+                                <img src="../assets/img/nav_author.jpg" alt="img" width="40" class="rounded-2">
                                 <div class="nav-toggler-content">
                                     <h6 class="mb-0">Hamzat Adeleke</h6>
 
@@ -186,11 +183,11 @@
     <div class="kleon-vertical-nav">
         <!-- Logo  -->
         <div class="logo d-flex align-items-center justify-content-between">
-            <a href="#" class="d-flex align-items-center gap-3 flex-shrink-0">
-                <img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1702931811/eyvre8n6kz9a18vadbzl-removebg-preview_gegkpj.png" alt="logo">
+            <a href="#" class="d-flex align-items-center gap-1 flex-shrink-0">
+                <!-- <img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1702931811/eyvre8n6kz9a18vadbzl-removebg-preview_gegkpj.png" alt="logo"> -->
                 <div class="position-relative flex-shrink-0">
-                    <!-- <img src="assets/img/logo-text.svg" alt="" class="logo-text"> -->
-                    <img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1702931811/eyvre8n6kz9a18vadbzl-removebg-preview_gegkpj.png" alt="" class="logo-text-white">
+                    <img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1703153357/NairaDirect-Images/Group_48097706_kmstz1.png" alt="" class="logo-text hhhhh">
+                    <img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1703151458/NairaDirect-Images/Group_48097704_1_aoelmz.png" alt="" class="logo-text-white align-self-lg-autoo">
                 </div>
             </a>
             <button type="button" class="kleon-vertical-nav-toggle"><i class="bi bi-list"></i></button>
@@ -209,14 +206,16 @@
                     </a>
                 </li>
                 <li class="menu-item">
-                    <a href="trade.php">
-                        <span class="nav-icon flex-shrink-0">
-                            <i class="bi bi-wallet2 fs-20"></i>
-                        </span>
-                        <span class="nav-text">
-                            Trade
-                        </span>
-                    </a>
+                <li class="menu-item menu-item-has-children"><a href="#"> <span class="nav-icon flex-shrink-0"> <i class="bi bi-wallet2 fs-20"></i></span>
+                        <span class="nav-text">Naira Wallet</span></a>
+                    <ul class="sub-menu">
+                        <li class="menu-item"><a href="trade.php">Trade</a></li>
+                        <li class="menu-item"><a href="withdraw.php">Withdraw Naira</a></li>
+                        <li class="menu-item"><a href="#">Deposit Naira</a></li>
+                        <li class="menu-item"><a href="#">Transactions</a></li>
+                    </ul>
+                    <span class='submenu-opener'><i class='bi bi-chevron-right'></i></span>
+                </li>
                 </li>
                 <li class="menu-item">
                     <a href="actions.php">
@@ -269,12 +268,12 @@
                     </a>
                 </li>
                 <li class="menu-item">
-                    <a href="#">
+                    <a href="setting.php">
                         <span class="nav-icon flex-shrink-0">
-                            <i class="bi bi-info-circle fs-20"></i>
+                            <i class="bi bi-gear fs-20"></i>
                         </span>
                         <span class="nav-text">
-                            InCrpto Info
+                            Setting
                         </span>
                     </a>
                 </li>

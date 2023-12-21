@@ -10,7 +10,7 @@
     <link href="assets/img/apple-touch-icon-144x144.html" rel="apple-touch-icon" sizes="144x144">
     <link rel="stylesheet" href="assets/css/main.css" id="stylesheet">
     <link rel="stylesheet" href="assets/css/dashstyle.css" id="stylesheet">
-    <link rel="shortcut icon" href="https://res.cloudinary.com/greenmouse-tech/image/upload/v1702897719/NairaDirect-Images/iyggly6czgiesicqthmh.png" type="image/x-icon">
+    <link rel="shortcut icon" href="https://res.cloudinary.com/greenmouse-tech/image/upload/v1703153357/NairaDirect-Images/Group_48097704_2_qfdtgb.png" type="image/x-icon">
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +19,7 @@
 </head>
 <!-- PHP to set the theme class dynamically -->
 
-<?php include('../dashboard/include/layout/header.php'); ?>
+<?php include('../include/layout/header.php'); ?>
 
 <body>
     <!-- Main Wrapper-->
