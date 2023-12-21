@@ -487,6 +487,20 @@ footer .foot {
 .hhhhh{
     width: 200px !important;
 }
+
+.alll tr th{
+    font-size: 15px !important;
+    font-weight:500 !important;
+    background-color: #3377C0;
+    color: #fff !important;
+    border-radius:  5px 5px 0px 0px;
+    text-align: center !important;
+}
+.alllk tr td{
+    font-size: 14px !important;
+    font-weight:400 !important;
+    text-align: center !important;
+}
 /* .align-self-lg-autoo{
     width: 100px !important;
 } */

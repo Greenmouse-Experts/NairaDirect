@@ -31,7 +31,7 @@
                         <h5 class="text-dark">Withdraw Wallet</h5>
                     </div>
                     <div class="right-part">
-                        <button class="btn btn-primary rounded-1 ff-heading fs-14 py-1" data-bs-toggle="modal" data-bs-target="#newcard"><i class="bi bi-bank me-1"></i>Add / Edit Bank</button>
+                        <button class="btn btn-primary rounded-1 ff-heading fs-14 py-1" data-bs-toggle="modal" data-bs-target="#newcard"><i class="bi bi-bank me-2"></i> Add Bank</button>
                     </div>
                 </div>
                 <div class="col-xxl-12 col-md-12">
@@ -56,7 +56,7 @@
                                 <!-- Tab Content First  -->
                                 <div class="tab-pane fade show active" id="tab-important" role="tabpanel">
                                     <div class="card-body p-0">
-                                        <form class="form-horizontal" method="post">
+                                        <form class="form-horizontal">
                                             <div class="row">
                                                 <div class="col-lg-6">
                                                     <div class="form-group">
@@ -94,7 +94,7 @@
                                         <p class="text-dark fw-bold mb-3">
                                             Deposit Method
                                         </p>
-                                        <form class="form-horizontal" method="post">
+                                        <form class="form-horizontal">
                                             <div class="row">
                                                 <div class="col-lg-6">
                                                     <div class="form-group">
@@ -109,7 +109,7 @@
                                                     <i class="bi bi-dot text-bg-danger me-1"></i> <a href="setting.php"> Click here</a> to verify your identity to be able to deposit Naira.
                                                 </p>
                                                 <p class="mb-4 text-gray">
-                                                <i class="bi bi-dot text-bg-danger me-1"></i> After verification, you   can transfer money to Naira Direct bank account number and get funds in your naira wallet instantly.
+                                                    <i class="bi bi-dot text-bg-danger me-1"></i> After verification, you can transfer money to Naira Direct bank account number and get funds in your naira wallet instantly.
                                                 </p>
                                             </div>
                                             <button type="submit" class="btn mt-3 btn-primary w-10 text-white rounded-1 lh-15 ff-heading">Update Bank</button>
@@ -120,85 +120,45 @@
                                 <!-- Tab Content Third  -->
                                 <div class="tab-pane fade" id="tab-promotion" role="tabpanel">
                                     <div class="card-body p-0">
-                                        <form class="form-horizontal" method="post">
-                                            <div class="row">
-                                                <div class="col-lg-6">
-                                                    <div class="form-group">
-                                                        <label for="" class="mb-2 form-label">Secret Question 1</label>
-                                                        <select class="select" name="" id="" required>
-                                                            <option value="">Please select</option>
-                                                            <option data-value="What is the name of your favourite pet?">What is the name of your favourite pet?</option>
-                                                            <option value="In what city were you born?">In what city were you born?</option>
-                                                            <option value="What high school did you attend?">What high school did you attend?</option>
-                                                            <option value="What is the name of your first school?">What is the name of your first school?</option>
-                                                            <option value="What is your favourite movie?">What is your favourite movie?</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-6">
-                                                    <div class="form-group">
-                                                        <label for="" class="mb-2 form-label">Answer 1</label>
-                                                        <input type="text" class="form-control" name="fname" value="" placeholder="Answer 1" required>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-6">
-                                                    <div class="form-group">
-                                                        <label for="" class="mb-2 form-label">Secret Question 2</label>
-                                                        <select class="select" name="" id="" required>
-                                                            <option value="">Please select</option>
-                                                            <option data-value="What is your favourite colour?">What is your favourite colour?</option>
-                                                            <option value="What is your mother's middle name?">What is your mother's middle name?</option>
-                                                            <option value="What is your grandfather's first name?">What is your grandfather's first name?</option>
-                                                            <option value="What is the name of your first school?">Where did you meet your spouse?</option>
-                                                            <option value="Where did you meet your spouse?">What is your favourite movie?</option>
-                                                            </option>
-                                                            <option value="Which phone number do you remember most from your childhood?">Which phone number do you remember most from your childhood?</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-6">
-                                                    <div class="form-group">
-                                                        <label for="" class="mb-2 form-label">Answer 2</label>
-                                                        <input type="text" class="form-control" name="fname" value="" placeholder="Answer 2" required>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-6">
-                                                    <div class="form-group">
-                                                        <label for="" class="mb-2 form-label">Secret Question 2</label>
-                                                        <select class="select" name="" id="" required>
-                                                            <option value="">Please select</option>
-                                                            <option data-value="What is your mother's maiden name?">What is your mother's maiden name?</option>
-                                                            <option value="What street did you grow up on?">What street did you grow up on?</option>
-                                                            <option value="What was the make of your first car?">What was the make of your first car?</option>
-                                                            <option value="What is your father's middle name?">What is your father's middle name?</option>
-                                                            <option value="What is your father's favourite food?">What is your father's favourite food?</option>
-                                                            </option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-6">
-                                                    <div class="form-group">
-                                                        <label for="" class="mb-2 form-label">Answer 3</label>
-                                                        <input type="text" class="form-control" name="fname" value="" placeholder="Answer 3" required>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <a href="#" class="btn mt-3 mb-4 btn-primary w-10 text-white rounded-1 lh-15 ff-heading">Update Quetions</a>
-                                        </form>
-                                        <form class="form-horizontal mt-2 " method="post">
-                                            <p class="mb-3">
-                                                To protect your account from unauthorized access, you should enable two-factor authentication.
-                                            </p>
-                                            <div class="row">
-                                                <div class="col-lg-6">
-                                                    <div class="form-group">
-                                                        <label for="" class="mb-2 form-label">Enable paper code two-factor authentication</label>
-                                                        <input type="tel" class="form-control" name="fname" value="" placeholder="00000" required>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <a href="#" class="btn mt-3 btn-primary w-10 text-white rounded-1 lh-15 ff-heading">Update 2fa</a>
-                                        </form>
+                                        <div class="table-responsive table-hiring">
+                                            <table id="table-1" class="display text-center">
+                                                <thead class="alll">
+                                                    <tr>
+                                                        <th>Time</th>
+                                                        <th>Description</th>
+                                                        <th>Status</th>
+                                                        <th>Amount (NGN)</th>
+                                                        <th>Actions</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody class="alllk">
+                                                    <tr>
+                                                        <td>
+                                                        2:00pm
+                                                        </td>
+                                                        <td>
+                                                        Freelancer
+                                                        </td>
+                                                        <td>
+                                                        Kleon Studio
+                                                        </td>
+                                                        <td>June 1, 2020</td>
+                                                        <td>
+                                                            <div class="dropdown">
+                                                                <a href="#" data-bs-toggle="dropdown" class="fs-24 text-gray">
+                                                                    <i class="bi bi-three-dots-vertical"></i>
+                                                                </a>
+                                                                <div class="dropdown-menu p-0">
+                                                                    <a class="dropdown-item" href="#">View</a>
+                                                                    <a class="dropdown-item" href="#">Edit</a>
+                                                                    <a class="dropdown-item text-danger" href="#">Delete</a>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -219,7 +179,7 @@
                     </div>
 
                     <div class="card-body pt-3">
-                        <form class="" method="post">
+                        <form class="">
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="form-group">

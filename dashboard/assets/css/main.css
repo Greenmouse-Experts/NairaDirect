@@ -23472,9 +23472,9 @@ label.error {
 table.dataTable thead th,
 table.dataTable thead td {
 
-  font-size: calc(1.025rem + 0.25714vw);
+  font-size: 15px;
   color: #202020;
-  padding: 30px 10px;
+  padding: 20px 10px;
   border-bottom: 1px solid #F5F5F5;
   text-align: left;
   white-space: nowrap;
