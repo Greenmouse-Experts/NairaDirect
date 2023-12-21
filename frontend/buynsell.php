@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Naira Direct</title>
-    <link rel="icon" type="image/x-icon" href="https://res.cloudinary.com/greenmouse-tech/image/upload/v1703153357/NairaDirect-Images/Group_48097704_2_qfdtgb.png">
+    <link rel="icon" type="image/x-icon" href="https://res.cloudinary.com/greenmouse-tech/image/upload/v1702897719/NairaDirect-Images/iyggly6czgiesicqthmh.png">
     <link rel="stylesheet" href="../frontend/assets/css/bootstrap.css">
     <link rel="stylesheet" href="../frontend/assets/css/style.css">
     <link rel="stylesheet" href="../frontend/assets/js/bootstrap.js">
@@ -22,66 +22,73 @@
         <div class="referral-hero">
             <div class="container h-100">
                 <div class="banner-control">
-                    <h1>Refer & Earn money with us.</h1>
+                    <h1>Buy & Sell with Ease.</h1>
                 </div>
             </div>
         </div>
         <!-- page content -->
         <div class="section-padding">
             <div class="container">
-                <div class="row flex-row-reverse align-items-center">
-                    <div class="col-lg-6">
-                        <img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1703152985/NairaDirect-Images/580-5808598_refer-and-earn-png-transparent-png-removebg-preview_vwiawx.png" alt="image">
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="section-title mb-4">
-                            <h2 class="text-start">Refer & Earn</h2>
+                <div>
+                    <p>NairaDirect provides you with an intuitive platform where you can safely buy and sell e-currencies or cryptocurrencies at anytime.</p>
+                    <p>An instant exchange where you can trade your crypto or ecurrency for Naira (fiat). You can easily convert your naira to crypto or ecurrency, in just a few clicks.</p>
+                </div>
+                <div class="mt-5">
+                    <h5>Trade With Assurance</h5>
+                    <div class="list-div mt-3">
+                        <div class="list-icon">
+                            <i class="fa fa-eercast" aria-hidden="true"></i>
                         </div>
-                        <div>
-                            <p>Naira Direct provides you with a simple tool where you can earn money when your friend use us.</p>
-                            <p>The Naira Direct Referral Program is functional, safe, and easy to use. You can be rewarded, in just a few clicks.</p>
-                            <p>To start earning, you need to send your referral link to your friends and family members.
-                                Your referral link can be found on Referrals page when logged in.
-                                Our system is very smooth and in realtime - you will never miss your earnings.</p>
+                        <div class="list-text">
+                            <p>Asset, Quantity, Price, and Time are decided by you.</p>
+                        </div>
+                    </div>
+                    <div class="list-div">
+                        <div class="list-icon">
+                            <i class="fa fa-eercast" aria-hidden="true"></i>
+                        </div>
+                        <div class="list-text">
+                            <p>Our system is very smooth - you will never miss important opportunities to Trade 24/7.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-4">
+                    <h5>Asset Security Is very important</h5>
+                    <div class="list-div mt-3">
+                        <div class="list-icon">
+                            <i class="fa fa-eercast" aria-hidden="true"></i>
+                        </div>
+                        <div class="list-text">
+                            <p>We use the multi-level security procedures to keep and move funds; Your asset is safe with us.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-4">
+                    <h5>We Are Awesome</h5>
+                    <div class="list-div justify-content-center mt-3">
+                        <div class="list-icon">
+                            <i class="fa fa-eercast" aria-hidden="true"></i>
+                        </div>
+                        <div class="list-text">
+                            <p>We have wealth of experience in the digital currency industry. We deliver the international standard of cryptocurrency Exchange and give you peace of mind.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- more about referrals -->
-        <div class="section-padding bg-sec">
+         <!-- What distinguishes -->
+         <div class="section-padding pt-0">
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-5 text-center">
-                        <div class="mb-4">
-                            <img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1703154591/NairaDirect-Images/add-group_az93lw.png" alt="icon" width="120" />
-                        </div>
-                        <h4>Complete Registration & Trade</h4>
-                        <p>Using your referral link, your friend will sign up and trade on Naira Direct.</p>
-                    </div>
-                    <div class="col-lg-5 text-center">
-                        <div class="mb-4">
-                            <img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1703154591/NairaDirect-Images/add-group_az93lw.png" alt="icon" width="120" />
-                        </div>
-                        <h4>Get Referral Rewards</h4>
-                        <p>You will be rewarded the commission generated from your friends’ trade.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- What distinguishes -->
-        <div class="section-padding">
-            <div class="container">
-                <div class="row justify-content-center">
+                <div class="row">
                     <div class="col-xl-8">
-                        <div class="section-title text-center">
-                            <h2>What distinguishes us from others</h2>
+                        <div class="text-center">
+                            <h5 class="text-start">What distinguishes us from others</h5>
                         </div>
                     </div>
                 </div>
-                <div class="row justify-content-center">
-                    <div class="col-xl-7">
-                        <div class="list-div justify-content-center">
+                <div class="row">
+                    <div class="col-xl-7 mt-3">
+                        <div class="list-div ">
                             <div class="list-icon">
                                 <i class="fa fa-eercast" aria-hidden="true"></i>
                             </div>
@@ -89,7 +96,7 @@
                                 <p>Trust</p>
                             </div>
                         </div>
-                        <div class="list-div justify-content-center">
+                        <div class="list-div ">
                             <div class="list-icon">
                                 <i class="fa fa-eercast" aria-hidden="true"></i>
                             </div>
@@ -97,7 +104,7 @@
                                 <p>High-level security and compliance</p>
                             </div>
                         </div>
-                        <div class="list-div justify-content-center">
+                        <div class="list-div ">
                             <div class="list-icon">
                                 <i class="fa fa-eercast" aria-hidden="true"></i>
                             </div>
@@ -105,7 +112,7 @@
                                 <p>Ease of use</p>
                             </div>
                         </div>
-                        <div class="list-div justify-content-center">
+                        <div class="list-div ">
                             <div class="list-icon">
                                 <i class="fa fa-eercast" aria-hidden="true"></i>
                             </div>
@@ -113,7 +120,7 @@
                                 <p>Access to convenient payment method</p>
                             </div>
                         </div>
-                        <div class="list-div justify-content-center">
+                        <div class="list-div ">
                             <div class="list-icon">
                                 <i class="fa fa-eercast" aria-hidden="true"></i>
                             </div>
@@ -121,7 +128,7 @@
                                 <p>Intuitive User Experience</p>
                             </div>
                         </div>
-                        <div class="list-div justify-content-center">
+                        <div class="list-div ">
                             <div class="list-icon">
                                 <i class="fa fa-eercast" aria-hidden="true"></i>
                             </div>
@@ -129,7 +136,7 @@
                                 <p>Robust exchange with fast and secure platform</p>
                             </div>
                         </div>
-                        <div class="list-div justify-content-center">
+                        <div class="list-div ">
                             <div class="list-icon">
                                 <i class="fa fa-eercast" aria-hidden="true"></i>
                             </div>
@@ -137,7 +144,7 @@
                                 <p>24/7 order fullfillment</p>
                             </div>
                         </div>
-                        <div class="list-div justify-content-center">
+                        <div class="list-div ">
                             <div class="list-icon">
                                 <i class="fa fa-eercast" aria-hidden="true"></i>
                             </div>
