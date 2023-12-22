@@ -87,28 +87,44 @@
                                 <!-- Tab Content Second  -->
                                 <div class="tab-pane fade" id="tab-socials" role="tabpanel">
                                     <div class="card-body p-0">
-                                        <p class="text-dark fw-bold mb-3">
-                                            Deposit Method
-                                        </p>
                                         <form class="form-horizontal">
                                             <div class="row">
+                                                <h5 class="text-dark mb-4">Sell 1 BTC @ <a href="#">₦43,668,120.00</a></h5>
                                                 <div class="col-lg-6">
                                                     <div class="form-group">
-                                                        <label for="" class="mb-2 form-label">Verify Identity To Deposit Money</label>
+                                                        <label for="" class="mb-2 form-label">Currency</label>
                                                         <select class="select" name="" id="" required>
                                                             <option value="">Please select</option>
-                                                            <option data-value="Verify your identity to deposit money">Verify your identity to deposit money</option>
+                                                            <option data-value="Bitcoin" data-display="Bitcoin">Bitcoin</option>
+                                                            <option data-value="Perfect Money">Perfect Money</option>
+                                                            <option data-value="Ethereum">Ethereum</option>
+                                                            <option data-value="USDT TRC20">USDT TRC20</option>
+                                                            <option data-value="Bitcoin Cash">Bitcoin Cash</option>
                                                         </select>
                                                     </div>
                                                 </div>
-                                                <p class="mb-3 text-gray">
-                                                    <i class="bi bi-dot text-bg-danger me-1"></i> <a href="setting.php"> Click here</a> to verify your identity to be able to deposit Naira.
-                                                </p>
-                                                <p class="mb-4 text-gray">
-                                                    <i class="bi bi-dot text-bg-danger me-1"></i> After verification, you can transfer money to Naira Direct bank account number and get funds in your naira wallet instantly.
-                                                </p>
+                                                <div class="col-lg-6">
+                                                    <div class="form-group">
+                                                        <label for="" class="mb-2 form-label">Sell From</label>
+                                                        <select class="select" name="" id="" required>
+                                                            <option value="">Please select</option>
+                                                            <option data-value="Bitcoin" data-display="Bitcoin balance">Bitcoin Balance</option>
+                                                            <option data-value="Bitcoin Wallet">External Wallet</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <div class="form-group">
+                                                        <label for="" class="mb-2 form-label">Enter your Amount</label>
+                                                        <input type="tel" class="form-control" name="fname" value="" placeholder="Enter amount" required>
+                                                    </div>
+                                                </div>
+                                                    <p class="mb-3 text-dark">
+                                                        <i class="bi bi-dot text-bg-danger me-1"></i>Bitcoin Balance <span class="float-end">0 BTC</span>
+                                                    </p>
+                                                   
                                             </div>
-                                            <button type="submit" class="btn mt-3 btn-primary w-10 text-white rounded-1 lh-15 ff-heading">Update Bank</button>
+                                            <button type="submit" class="btn mt-5 btn-primary w-10 text-white rounded-1 lh-15 ff-heading">Sell Now</button>
                                         </form>
                                     </div>
                                 </div>
@@ -130,13 +146,13 @@
                                                 <tbody class="alllk">
                                                     <tr>
                                                         <td>
-                                                        2:00pm
+                                                            2:00pm
                                                         </td>
                                                         <td>
-                                                        Freelancer
+                                                            Freelancer
                                                         </td>
                                                         <td>
-                                                        Kleon Studio
+                                                            Kleon Studio
                                                         </td>
                                                         <td>June 1, 2020</td>
                                                         <td>

@@ -45,7 +45,7 @@
                                                 </div>
                                             </div>
                                             <div>
-                                                <p class="text-gray mb-0"><span class="text-success fw-bold"><i class="bi bi-graph-up-arrow"></i> +0.5%</span> BTC
+                                                <p class="text-gray mb-0"><span class="text-fontt fw-bold"><i class="bi bi-graph-up-arrow"></i> +0.5%</span> BTC
                                                 </p>
                                             </div>
                                             <div class="asstes">
@@ -214,7 +214,7 @@
                                             </div>
                                             <span class="sc-4js264-0 cyTQqR">1.76%</span>
                                             <div>
-                                                <p class="text-dark mb-2"><span class="text-danger fs-12">24 Low </span>
+                                                <p class="text-dark mb-2"><span class="text-fontt fs-12">24 Low </span>
                                                     22,391.00
                                                 </p>
                                                 <p class="text-dark mb-0"><span class="text-success fs-12">24 High
@@ -233,15 +233,15 @@
                                         <button href="#" class="btn btn-outline-primary ff-heading fs-14 fw-bold" data-bs-toggle="modal" data-bs-target="#newcard">Sell</button>
                                         <button href="#" class="btn btn-primary ff-heading fs-14 fw-bold">Buy</button>
                                     </div>
-                                </div>
+                                </div> 
                                 <div class="track card">
                                     <div class="widget_body card g-0 card--no-bg">
                                         <h2 class="mb-2 first">Quick Actions</h2>
                                         <div class="style_banner__S6adz card card--abstract">
-                                            <h4 class="text-white first">
+                                            <h5 class="aminkfkfk">
                                                 Get rewarded up
                                                 <br> to 4030 USDT
-                                            </h4><span class="style_banner_img__b2OCM lazy-load-image-background opacity lazy-load-image-loaded" style="color: transparent; display: inline-block;">
+                                            </h5><span class="style_banner_img__b2OCM lazy-load-image-background opacity lazy-load-image-loaded" style="color: transparent; display: inline-block;">
                                                 <img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1702991425/NairaDirect-Images/1.efa5184a5a8365b0c535_nee53p.webp" alt="banner" class="style_banner_img__b2OCM"></span>
                                         </div>
                                         <div class="style_list__e1nQC">
