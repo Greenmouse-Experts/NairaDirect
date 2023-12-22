@@ -50,8 +50,23 @@
                 <div class="row">
                 <div class="guide-grid">
                     <div class="guide-grid-box bg-sec">
-                        <h4>Why Do I Need To Verify My Account On Nairadirect</h4>
+                        <h5>Why Do I Need To Verify My Account On Nairadirect</h5>
                         <p class="my-3">Nairadirect is an exchange platform that enables its users to buy and sell cryptocurrencies; Bitcoin, Ethereum, USDT as well as other digital currencies such as</p>
+                        <p>READ MORE >></p>
+                    </div>
+                    <div class="guide-grid-box bg-sec">
+                        <h5>What Do I DO If I Have Challenges Processing My Order</h5>
+                        <p class="my-3">Nairadirect will be happy to help if you are experiencing any issues processing your orders. Kindly reach out with your questions, concerns and challenges through</p>
+                        <p>READ MORE >></p>
+                    </div>
+                    <div class="guide-grid-box bg-sec">
+                        <h>How To Verify My Account On Nairadirect</h>
+                        <p class="my-3">Nairadirect is committed to ensuring the safety of its users. Hence to buy bitcoin, Ethereum, or any e-currency user’s need to sign up and complete</p>
+                        <p>READ MORE >></p>
+                    </div>
+                    <div class="guide-grid-box bg-sec">
+                        <h>How TO USe Nairadirect TO Manage Your Cryptocurrency/E-currency</h>
+                        <p class="my-3">Nairadirect is an exchange platform that enables its users to buy and sell Bitcoin, Ethereum, USDT as well as other digital currencies such as Perfect</p>
                         <p>READ MORE >></p>
                     </div>
                 </div>

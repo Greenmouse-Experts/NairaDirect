@@ -18,7 +18,7 @@
                 <div class='p-0 bg-trans'>
                     <nav class='navbar navbar-expand-lg align-items-center justify-content-between'>
                         <a class="navbar-brand bg-logo" href="#"></a>
-                        <button aria-controls="basic-navbar-nav" type="button" aria-label="Toggle navigation" class="navbar-toggler collapsed"><span class="navbar-toggler-icon"></span></button>
+                        <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" class="navbar-toggler collapsed"><i class="fa fa-bars" aria-hidden="true"></i></button>
                         <div class="navbar-collapse collapse flex-grow-0">
                             <div data-nav="list" class="d-flex align-items-center gap-3">
                                 <div class="ml-auto navbar-nav">
@@ -37,7 +37,27 @@
             </div>
 
         </div>
-        </nav>
+    </div>
+    <!-- menu callout -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <a class="navbar-brand bg-logo" href="#"></a>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="my-ul">
+                <li><a href="about.php">About Us</a></li>
+                <li class="mt-3"><a href="https://buysellbitcoin.website/">Blog/News</a></li>
+                <li class="mt-3"><a href="contact.php">Contact Us</a></li>
+                <li class="mt-3"><a href="referrals.php">Referrals & Affiliates</a></li>
+                <li class="mt-3"><a href="guide.php">Support</a></li>
+                <li class="mt-3"><a href="bitcoin-wallet.php">Bitcoin Wallet</a></li>
+                <li class="mt-3"><a href="naira-wallet.php">Naira Wallet</a></li>
+                <li class="mt-3"><a href="terms.php">Terms & Conditions</a></li>
+                <li class="mt-3"><a href="privacy.php">Privacy Policy</a></li>
+                <li class="mt-3"><a href="guide.php">Guide</a></li>
+            </ul>
+        </div>
     </div>
     <!-- Modal -->
     <div class="modal fade" id="priceModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">

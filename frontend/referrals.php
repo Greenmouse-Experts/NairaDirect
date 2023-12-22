@@ -31,7 +31,7 @@
             <div class="container">
                 <div class="row flex-row-reverse align-items-center">
                     <div class="col-lg-6">
-                        <img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1703152985/NairaDirect-Images/580-5808598_refer-and-earn-png-transparent-png-removebg-preview_vwiawx.png" alt="image">
+                        <img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1703152985/NairaDirect-Images/580-5808598_refer-and-earn-png-transparent-png-removebg-preview_vwiawx.png" alt="image" class="w-100">
                     </div>
                     <div class="col-lg-6">
                         <div class="section-title mb-4">
