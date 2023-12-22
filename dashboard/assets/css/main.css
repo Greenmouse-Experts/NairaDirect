@@ -746,13 +746,31 @@ progress {
 .container-lg,
 .container-xl,
 .container-xxl {
-  --kleon-gutter-x: 0px !important;
+  --kleon-gutter-x: 0px;
   --kleon-gutter-y: 0;
   width: 100%;
   padding-right: calc(var(--kleon-gutter-x) * .5);
   padding-left: calc(var(--kleon-gutter-x) * .5);
   margin-right: auto;
   margin-left: auto;
+}
+
+@media (max-width: 768px) {
+  .container,
+.container-fluid,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl,
+.container-xxl {
+  --kleon-gutter-x: 35px !important;
+  --kleon-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--kleon-gutter-x) * .5);
+  padding-left: calc(var(--kleon-gutter-x) * .5);
+  margin-right: auto;
+  margin-left: auto;
+}
 }
 
 @media (min-width: 576px) {
@@ -7999,7 +8017,7 @@ fieldset:disabled .btn {
   display: block;
   padding: var(--kleon-tooltip-arrow-height);
   margin: var(--kleon-tooltip-margin);
-  font-family: "Open Sans", sans-serif;
+  
   font-style: normal;
   font-weight: 400;
   line-height: 1.45;
@@ -8124,7 +8142,7 @@ fieldset:disabled .btn {
   z-index: var(--kleon-popover-zindex);
   display: block;
   max-width: var(--kleon-popover-max-width);
-  font-family: "Open Sans", sans-serif;
+  
   font-style: normal;
   font-weight: 400;
   line-height: 1.45;
@@ -19819,7 +19837,7 @@ html {
 body {
   position: relative;
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.45;
@@ -19968,7 +19986,7 @@ label,
 .pagination,
 .valid-feedback,
 .invalid-feedback {
-  font-family: "Open Sans", sans-serif;
+  
 }
 
 .blockquote {
@@ -19991,7 +20009,7 @@ strong {
 }
 
 abbr[title] {
-  font-family: "Open Sans", sans-serif;
+  
   font-size: 1rem;
   font-weight: 400;
   color: #A5A5A5;
@@ -20051,7 +20069,7 @@ dt {
 }
 
 dd {
-  font-family: "Open Sans", sans-serif;
+  
   font-size: 0.875rem;
   font-weight: 400;
   color: #A5A5A5;
@@ -22340,7 +22358,7 @@ a:hover .text-soft-dark {
 }
 
 .nav-tabs.nav-media .tab-media-subtitle {
-  font-family: "Open Sans", sans-serif;
+  
   font-size: 0.75rem;
   line-height: 1.375rem;
 }
@@ -23002,7 +23020,7 @@ a:hover .text-soft-dark {
 
 .card-donut h5,
 .card-donut .h5 {
-  font-family: "Open Sans", sans-serif;
+  
   font-size: 1.125rem;
 }
 
@@ -23538,7 +23556,7 @@ td,
 th,
 td h6,
 td .h6 {
-  font-family: "Open Sans", sans-serif;
+  
   color: #202020;
 }
 
@@ -25971,6 +25989,7 @@ h5.negative-margin,
 :root .dark-mode .tox .tox-tbtn--bespoke,
 :root .dark-mode .form-control,
 :root .dark-mode .form-select,
+:root .dark-mode .select,
 :root .dark-mode .modal-content,
 :root .dark-mode .kleon-vertical-nav ul.main-menu li ul,
 :root .dark-mode ::-webkit-scrollbar-thumb,
@@ -26006,6 +26025,7 @@ h5.negative-margin,
 :root .dark-mode table.defaultTable tbody td,
 :root .dark-mode .select2-container--default .select2-selection--single .select2-selection__rendered,
 :root .dark-mode .search-form .form-control,
+:root .dark-mode .select,
 :root .dark-mode .form-control,
 :root .dark-mode .form-select,
 :root .dark-mode .fc-theme-standard td,
@@ -26100,6 +26120,7 @@ h5.negative-margin,
 :root .dark-mode .btn-primary,
 :root .dark-mode .badge.bg-primary,
 :root .dark-mode .form-control,
+:root .dark-mode .select,
 :root .dark-mode .list-group-item,
 :root .dark-mode .dataTables_wrapper .dataTables_length label,
 :root .dark-mode .dataTables_wrapper .dataTables_filter label,

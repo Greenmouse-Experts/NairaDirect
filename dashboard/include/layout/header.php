@@ -217,7 +217,7 @@
                     <span class='submenu-opener'><i class='bi bi-chevron-right'></i></span>
                 </li>
                 <li class="menu-item">
-                    <a href="#">
+                    <a href="buy&sell.php">
                         <span class="nav-icon flex-shrink-0">
                             <i class="bi bi-cash-coin fs-20"></i>
                         </span>
