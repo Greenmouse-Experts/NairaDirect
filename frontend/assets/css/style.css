@@ -43,11 +43,11 @@ a:hover {
   text-decoration: none;
   outline: none;
 }
-/* ul {
+.my-ul {
   list-style: none;
   margin-left: 0;
   padding-left: 0;
-} */
+}
 .bg-sec {
   background: var(--color-sg);
 }
@@ -60,6 +60,12 @@ a:hover {
   background-image: var(--logo) !important;
   background-size: 100% 100%;
 }
+@media (max-width: 400px) {
+  .bg-logo{
+    width: 150px !important;
+    height: 40px !important;
+  }
+}
 .bg-primary {
   background: #508bbc !important;
 }
@@ -70,6 +76,15 @@ a:hover {
   display: inline-block;
   width: 3.5em;
   height: 2em;
+}
+@media (max-width: 600px) {
+  .switch {
+    font-size: 14px;
+    position: relative;
+    display: inline-block;
+    width: 3.0em;
+    height: 1.5em;
+  }
 }
 
 /* Hide default HTML checkbox */
@@ -122,6 +137,21 @@ input:checked + .slider {
 input:checked + .slider:before {
   transform: translateX(100%);
   box-shadow: inset 15px -4px 0px 15px #fff000;
+}
+@media (max-width: 600px) {
+  .switch {
+    font-size: 14px;
+    position: relative;
+    display: inline-block;
+    width: 3.0em;
+    height: 1.5em;
+  }
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 1.0em;
+    width: 1.0em;
+  }
 }
 /* home page styling */
 /* header */
@@ -190,6 +220,22 @@ input:checked + .slider:before {
   .intro-form-exchange {
     margin-top: 40px;
   }
+  .intro-btn .btn-primary {
+    margin-right: 5px;
+  }
+  .intro .intro-content h1 {
+    line-height: 45px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 300px) {
+  .intro-btn .btn-primary {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .intro-btn .btn-outline-primary{
+    width: 100%;
+  }
 }
 .scroll-animate {
   padding: 60px 0px 0px !important;
@@ -218,7 +264,7 @@ input:checked + .slider:before {
 .media {
   display: flex;
   align-items: flex-start;
-  gap: 5px;
+  gap: 15px;
 }
 .media-box {
   display: flex;
@@ -260,7 +306,12 @@ input:checked + .slider:before {
   }
 }
 .portfolio_list .media {
-  margin-bottom: 30px;
+  margin-bottom: 60px;
+}
+@media (max-width: 960px) {
+  .portfolio_list .media {
+    margin-bottom: 30px;
+  }
 }
 .portfolio_list .media .port-icon {
   height: 65px;
@@ -316,6 +367,18 @@ input:checked + .slider:before {
 .h-80 {
   height: 310px;
 }
+@media (max-width: 960px) {
+  .trade-app{
+    margin-top: 30px;
+  }
+  .trade-app-content{
+    margin-bottom: 40px;
+  }
+  .h-80 {
+    height: 150px;
+  }
+}
+
 .carousel-control-next {
   right: -100px !important;
 }
@@ -422,6 +485,11 @@ input:checked + .slider:before {
 .accordion-button {
   color: #000000 !important;
 }
+@media (max-width: 960px) {
+  .acc-container{
+    width: 100% !important;
+  }
+}
 /* bottom styling */
 .bottom {
   background: var(--color-sg);
@@ -489,6 +557,10 @@ input:checked + .slider:before {
     background-color: (--color-sg);
     display: block;
     gap: 20px;
+  }
+  .top-20 {
+    top: 14% !important;
+    right: 2.7% !important;
   }
 }
 
@@ -560,7 +632,7 @@ input:checked + .slider:before {
   padding: 10px;
   width: 100%;
   outline: none;
-  border-radius: 20px;
+  border-radius: 20px 0px 0px 20px;
 }
 .search-icon-con{
   border-radius: 0px 20px 20px 0px;
@@ -576,9 +648,16 @@ input:checked + .slider:before {
 }
 .guide-grid{
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 33% 33% 33%;
+  justify-content: space-between;
   gap: 30px;
 }
 .guide-grid-box{
-  padding: 20px;
+  padding: 30px;
+}
+.guide-grid-box p{
+  font-size: 14px;
+}
+.modal-backdrop.show{
+  opacity: 0;
 }
