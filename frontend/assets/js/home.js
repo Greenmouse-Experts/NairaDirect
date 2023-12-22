@@ -16,5 +16,5 @@ button.addEventListener("click", () => {
 
 const LoadTheme = () => {
     let  currentThemeSetting = localStorage.getItem('theme')
-    document.querySelector("html").setAttribute("data-theme", currentThemeSetting);
+    document.querySelector("html").setAttribute("data-theme", currentThemeSetting || 'light');
 }
