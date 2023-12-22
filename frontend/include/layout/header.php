@@ -17,12 +17,12 @@
             <div class='row px-2'>
                 <div class='p-0 bg-trans'>
                     <nav class='navbar navbar-expand-lg align-items-center justify-content-between'>
-                        <a class="navbar-brand" href="https://nairadirect.victornwadinobi.com/frontend/"><img id="logo" src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1703154148/NairaDirect-Images/Group_48097706_vvxl4g.png" alt="Logo" draggable="false" width="180" /></a>
+                        <a class="navbar-brand bg-logo" href="#"></a>
                         <button aria-controls="basic-navbar-nav" type="button" aria-label="Toggle navigation" class="navbar-toggler collapsed"><span class="navbar-toggler-icon"></span></button>
                         <div class="navbar-collapse collapse flex-grow-0">
                             <div data-nav="list" class="d-flex align-items-center gap-3">
                                 <div class="ml-auto navbar-nav">
-                                    <div class="nav-item"><a href="/" data-rb-event-key="#home" class="nav-Nav.link nav-link">Home</a></div>
+                                    <div class="nav-item"><a href="https://nairadirect.victornwadinobi.com/frontend/" data-rb-event-key="#home" class="nav-Nav.link nav-link">Home</a></div>
                                     <div class="nav-item"><button data-rb-event-key="#price" data-bs-toggle="modal" data-bs-target="#priceModal" class="nav-Nav.link nav-link">Price List</button></div>
                                     <div class="nav-item"><a href="referrals.php" data-rb-event-key="#portfolio" class="nav-Nav.link nav-link">Referrals</a></div>
                                     <!-- <div class="nav-item"><a href="contact.php" data-rb-event-key="#testimonial" class="nav-Nav.link nav-link">Contact Us</a></div> -->
