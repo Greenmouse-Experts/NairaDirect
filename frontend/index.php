@@ -336,7 +336,7 @@
                                             <div class="w-lg-50 h-80">
                                                 <img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1702986973/NairaDirect-Images/ceo_andsks.jpg" alt="ceo" class="w-100 h-100">
                                             </div>
-                                            <div class="w-lg-50 ps-lg-5 pe-2 bg-sec">
+                                            <div class="w-lg-50 ps-lg-5 pe-2 bg-sec my-pad-10">
                                                 <p class="fs-4">Banimibo-ofori</p>
                                                 <p>Naira Direct deserves 6 stars if possible. It has all the qualities to be Nigeria's No.1.</p>
                                                 <p class="opacity-75"> Rivers State.</p>
@@ -348,7 +348,7 @@
                                             <div class="w-lg-50 h-80">
                                                 <img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1702986973/NairaDirect-Images/ceo_andsks.jpg" alt="ceo" class="w-100 h-100">
                                             </div>
-                                            <div class="w-lg-50 ps-lg-5 pe-2 bg-sec">
+                                            <div class="w-lg-50 ps-lg-5 pe-2 bg-sec my-pad-10">
                                                 <p class="fs-4">Anu</p>
                                                 <p>At first I was skeptical but I had to give it a try. The transaction was smooth and easy.</p>
                                                 <p class="opacity-75">Lagos State.</p>
@@ -360,7 +360,7 @@
                                             <div class="w-lg-50 h-80">
                                                 <img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1702986973/NairaDirect-Images/ceo_andsks.jpg" alt="ceo" class="w-100 h-100">
                                             </div>
-                                            <div class="w-lg-50 ps-lg-5 pe-2 bg-sec">
+                                            <div class="w-lg-50 ps-lg-5 pe-2 bg-sec my-pad-10">
                                                 <p class="fs-4">Ubong Asukwo</p>
                                                 <p>Good job done here... everything was done less than an hour.</p>
                                                 <p class="opacity-75">Cross River State</p>
