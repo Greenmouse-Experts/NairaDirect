@@ -291,7 +291,7 @@
                     <div class="col-xl-4 col-lg-4 col-md-12">
                         <div class="card trade-app-content">
                             <div class="card-body">
-                                <span><img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1703161339/NairaDirect-Images/Group_480977152_crstiv.png" alt="phone" width="50"></span>
+                                <span><img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1703161339/NairaDirect-Images/Group_480977152_crstiv.png" alt="phone" width="40"></span>
                                 <h4 class="card-title">Mobile</h4>
                                 <p>All the power of Naira Direct's cryptocurrency exchange, in the palm of your hand. Log into Naira direct trading app platform today from your mobile devices</p><a href="/" class="text-com fw-bold"> Know More <i class="la la-arrow-right"></i> </a>
                             </div>
@@ -299,7 +299,7 @@
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-12">
                         <div class="card trade-app-content">
-                            <div class="card-body"><span><img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1703161338/NairaDirect-Images/Group_480977162_ezlfp4.png" alt="phone" width="100"></span>
+                            <div class="card-body"><span><img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1703161338/NairaDirect-Images/Group_480977162_ezlfp4.png" alt="phone" width="90"></span>
                                 <h4 class="card-title">Desktop</h4>
                                 <p>Powerful crypto trading platform for those who mean business. The Naira direct crypto trading experience, tailor-made for your Windows or MacOS device.</p><a href="/" class="text-com fw-bold"> Know More <i class="la la-arrow-right"></i> </a>
                             </div>
@@ -307,7 +307,7 @@
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-12">
                         <div class="card trade-app-content">
-                            <div class="card-body"><span><img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1703161338/NairaDirect-Images/Group_480977172_qw84uu.png" alt="phone" width="85"></span>
+                            <div class="card-body"><span><img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1703161338/NairaDirect-Images/Group_480977172_qw84uu.png" alt="phone" width="75"></span>
                                 <h4 class="card-title">API</h4>
                                 <p class="mb-4 pb-3">The Naira direct API is designed to provide an easy and efficient way to integrate your trading application into our platform.</p><a href="/" class="text-com fw-bold"> Know More <i class="la la-arrow-right"></i> </a>
                             </div>
@@ -336,7 +336,7 @@
                                             <div class="w-lg-50 h-80">
                                                 <img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1702986973/NairaDirect-Images/ceo_andsks.jpg" alt="ceo" class="w-100 h-100">
                                             </div>
-                                            <div class="w-lg-50 ps-5 pe-2 bg-sec">
+                                            <div class="w-lg-50 ps-lg-5 pe-2 bg-sec">
                                                 <p class="fs-4">Banimibo-ofori</p>
                                                 <p>Naira Direct deserves 6 stars if possible. It has all the qualities to be Nigeria's No.1.</p>
                                                 <p class="opacity-75"> Rivers State.</p>
@@ -348,7 +348,7 @@
                                             <div class="w-lg-50 h-80">
                                                 <img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1702986973/NairaDirect-Images/ceo_andsks.jpg" alt="ceo" class="w-100 h-100">
                                             </div>
-                                            <div class="w-lg-50 ps-5 pe-2 bg-sec">
+                                            <div class="w-lg-50 ps-lg-5 pe-2 bg-sec">
                                                 <p class="fs-4">Anu</p>
                                                 <p>At first I was skeptical but I had to give it a try. The transaction was smooth and easy.</p>
                                                 <p class="opacity-75">Lagos State.</p>
@@ -360,7 +360,7 @@
                                             <div class="w-lg-50 h-80">
                                                 <img src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1702986973/NairaDirect-Images/ceo_andsks.jpg" alt="ceo" class="w-100 h-100">
                                             </div>
-                                            <div class="w-lg-50 ps-5 pe-2 bg-sec">
+                                            <div class="w-lg-50 ps-lg-5 pe-2 bg-sec">
                                                 <p class="fs-4">Ubong Asukwo</p>
                                                 <p>Good job done here... everything was done less than an hour.</p>
                                                 <p class="opacity-75">Cross River State</p>

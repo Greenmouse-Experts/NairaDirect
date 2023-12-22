@@ -24,7 +24,7 @@
                 <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
                     <div class="bottom-widget">
                         <h4 class="widget-title">Calculator</h4>
-                        <ul>
+                        <ul class="my-ul">
                             <li><a href="#">Bitcoin Calculator</a></li>
                             <li><a href="#">Ehereum Calculator</a></li>
                             <li><a href="#">Bitcoin Cash Calculator</a></li>
@@ -35,7 +35,7 @@
                 <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
                     <div class="bottom-widget">
                         <h4 class="widget-title">Product & Services</h4>
-                        <ul>
+                        <ul class="my-ul">
                             <li><a href="guide.php">Support</a></li>
                             <li><a href="bitcoin-wallet.php">Bitcoin Wallet</a></li>
                             <li><a href="naira-wallet.php">Naira Wallet</a></li>
@@ -50,7 +50,7 @@
                         <h4 class="widget-title">Naira Direct</h4>
                         <div class="row">
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                                <ul>
+                                <ul class="my-ul">
                                     <li><a href="about.php">About Us</a></li>
                                     <li><a href="https://buysellbitcoin.website/">Blog/News</a></li>
                                     <li><a href="contact.php">Contact Us</a></li>
@@ -58,7 +58,7 @@
                                 </ul>
                             </div>
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                                <ul>
+                                <ul class="my-ul">
                                     <li><a href="terms.php">Terms & Conditions</a></li>
                                     <li><a href="privacy.php">Privacy Policy</a></li>
                                     <li><a href="guide.php">Guide</a></li>
