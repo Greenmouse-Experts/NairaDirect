@@ -209,23 +209,12 @@
                 <li class="menu-item menu-item-has-children"><a href="#"> <span class="nav-icon flex-shrink-0"> <i class="bi bi-wallet2 fs-20"></i></span>
                         <span class="nav-text">Naira Wallet</span></a>
                     <ul class="sub-menu">
-                        <li class="menu-item"><a href="trade.php">Trade</a></li>
                         <li class="menu-item"><a href="withdraw.php">Withdraw Naira</a></li>
                         <li class="menu-item"><a href="#">Deposit Naira</a></li>
                         <li class="menu-item"><a href="#">Transactions</a></li>
+                        <li class="menu-item"><a href="trade.php">Trade</a></li>
                     </ul>
                     <span class='submenu-opener'><i class='bi bi-chevron-right'></i></span>
-                </li>
-                </li>
-                <li class="menu-item">
-                    <a href="actions.php">
-                        <span class="nav-icon flex-shrink-0">
-                            <i class="bi bi-subtract fs-20"></i>
-                        </span>
-                        <span class="nav-text">
-                            Actions
-                        </span>
-                    </a>
                 </li>
                 <li class="menu-item">
                     <a href="#">
@@ -233,29 +222,39 @@
                             <i class="bi bi-cash-coin fs-20"></i>
                         </span>
                         <span class="nav-text">
-                            Wallet
+                            Buy & Sell
                         </span>
                     </a>
+                </li>
+                <li class="menu-item menu-item-has-children"><a href="#"> <span class="nav-icon flex-shrink-0"><i class="bi bi-currency-bitcoin fs-20"></i></span>
+                        <span class="nav-text">Bitcoin Wallet</span></a>
+                    <ul class="sub-menu">
+                        <li class="menu-item"><a href="#">Send BTC</a></li>
+                        <li class="menu-item"><a href="#">Receive BTC</a></li>
+                        <li class="menu-item"><a href="#">Transactions</a></li>
+                    </ul>
+                    <span class='submenu-opener'><i class='bi bi-chevron-right'></i></span>
+                </li>
                 </li>
                 <li class="menu-item">
                     <a href="#">
                         <span class="nav-icon flex-shrink-0">
-                            <i class="bi bi-arrows-angle-contract fs-20"></i>
+                            <i class="bi bi-code-square fs-20"></i>
                         </span>
                         <span class="nav-text">
-                            NFT
+                            Referrals
                         </span>
                     </a>
                 </li>
-                <li class="menu-item">
-                    <a href="#">
-                        <span class="nav-icon flex-shrink-0">
-                            <i class="bi bi-database-up fs-20"></i>
-                        </span>
-                        <span class="nav-text">
-                            Collections
-                        </span>
-                    </a>
+                <li class="menu-item menu-item-has-children"><a href="#"> <span class="nav-icon flex-shrink-0"><i class="bi bi-chat-left-dots fs-20"></i></span>
+                        <span class="nav-text"> Message Center</span></a>
+                    <ul class="sub-menu">
+                        <li class="menu-item"><a href="#">Inbox</a></li>
+                        <li class="menu-item"><a href="#">Sent Mails</a></li>
+                        <li class="menu-item"><a href="#">Archive Mails</a></li>
+                        <li class="menu-item"><a href="#">Trash</a></li>
+                    </ul>
+                    <span class='submenu-opener'><i class='bi bi-chevron-right'></i></span>
                 </li>
                 <li class="menu-item">
                     <a href="#">
@@ -273,7 +272,7 @@
                             <i class="bi bi-gear fs-20"></i>
                         </span>
                         <span class="nav-text">
-                            Setting
+                            Settings
                         </span>
                     </a>
                 </li>
