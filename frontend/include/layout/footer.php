@@ -16,7 +16,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                    <div class="bottom-logo"><img class="pb-3" src="https://res.cloudinary.com/greenmouse-tech/image/upload/v1703154148/NairaDirect-Images/Group_48097706_vvxl4g.png" alt="logo" width="200">
+                    <div class="bottom-logo">
+                        <div class="bg-logo"></div>
                         <p class="pe-2">Sell bitcoin in Nigeria quickly with easy steps at Naira Direct, which is the safest & secure place to instantly Buy, Sell & Manage your crypto & e-currency portfolio in Nigeria.</p>
                     </div>
                 </div>
@@ -35,7 +36,7 @@
                     <div class="bottom-widget">
                         <h4 class="widget-title">Product & Services</h4>
                         <ul>
-                            <li><a href="/">Support</a></li>
+                            <li><a href="guide.php">Support</a></li>
                             <li><a href="bitcoin-wallet.php">Bitcoin Wallet</a></li>
                             <li><a href="naira-wallet.php">Naira Wallet</a></li>
                             <li><a href="buynsell.php">Buy/Sell E-Currencies</a></li>

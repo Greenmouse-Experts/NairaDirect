@@ -27,8 +27,40 @@
             </div>
         </div>
         <!-- page content -->
-       
+        <div class="section-padding">
+            <div class="container">
+                <!-- search box -->
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="search-box">
+                            <div class="">
+                                <input type="search" name="search" id="search" class="search-input">
+                            </div>
+                            <div class="bg-primary search-icon-con">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- question boxes -->
+        <div class="section-padding">
+            <div class="container">
+                <div class="row">
+                <div class="guide-grid">
+                    <div class="guide-grid-box bg-sec">
+                        <h4>Why Do I Need To Verify My Account On Nairadirect</h4>
+                        <p class="my-3">Nairadirect is an exchange platform that enables its users to buy and sell cryptocurrencies; Bitcoin, Ethereum, USDT as well as other digital currencies such as</p>
+                        <p>READ MORE >></p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <script src="../frontend/assets/js/home.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 <?php include('../frontend/include/layout/footer.php'); ?>
 

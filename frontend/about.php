@@ -45,29 +45,31 @@
         <!-- services -->
         <div class="section-padding">
             <div class="container">
-            <div class="row">
-                <div class="about-listing">
-                    <div class="about-tab">
-                        <h4>Trade With Assurance</h4>
-                        <p>Asset, Price, Quantity, Time and Margin are decided by you.Our system is very fluid - you will never miss important opportunities to Trade 24/7.</p>
-                    </div>
-                    <div class="about-tab">
-                        <h4>Asset Security Is Paramount</h4>
-                        <p>We keep your bitcoin in the most secure wallets. We use the most Secure Procedures to keep and move funds; we have cold storage.</p>
-                    </div>
-                    <div class="about-tab">
-                        <h4>We Are Awesome</h4>
-                        <p>We have wealth of experience in the digital currency industry. We deliver the international standard of cryptocurrency Exchange and give you peace of mind.</p>
-                    </div>
-                    <div class="about-tab">
-                        <h4>What distinguishes us from others?</h4>
-                        <p>Trust, High-level security and compliance, Ease of use, Access to convenient payment method, Intuitive User Experience, 24/7 order fullfillment and Responsive Message Center are some of things that makes us stand out</p>
+                <div class="row">
+                    <div class="about-listing">
+                        <div class="about-tab">
+                            <h4>Trade With Assurance</h4>
+                            <p>Asset, Price, Quantity, Time and Margin are decided by you.Our system is very fluid - you will never miss important opportunities to Trade 24/7.</p>
+                        </div>
+                        <div class="about-tab">
+                            <h4>Asset Security Is Paramount</h4>
+                            <p>We keep your bitcoin in the most secure wallets. We use the most Secure Procedures to keep and move funds; we have cold storage.</p>
+                        </div>
+                        <div class="about-tab">
+                            <h4>We Are Awesome</h4>
+                            <p>We have wealth of experience in the digital currency industry. We deliver the international standard of cryptocurrency Exchange and give you peace of mind.</p>
+                        </div>
+                        <div class="about-tab">
+                            <h4>What distinguishes us from others?</h4>
+                            <p>Trust, High-level security and compliance, Ease of use, Access to convenient payment method, Intuitive User Experience, 24/7 order fullfillment and Responsive Message Center are some of things that makes us stand out</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            </div>
         </div>
     </div>
+    <script src="../frontend/assets/js/home.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 <?php include('../frontend/include/layout/footer.php'); ?>
 
