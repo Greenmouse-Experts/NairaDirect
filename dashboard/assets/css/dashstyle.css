@@ -160,7 +160,7 @@ p {
     color: #fff;
 }
 
-.aminkfkfk{
+.aminkfkfk {
     font-size: 17px;
     font-weight: 600;
     color: white !important;
@@ -224,15 +224,17 @@ p {
         height: auto !important;
         overflow-y: auto;
     }
-    
+
     .style_list__e1nQC {
         height: auto !important;
         overflow-y: auto;
     }
+
     .fLpMjG .track {
-        height:auto !important;
+        height: auto !important;
         overflow-y: auto;
     }
+
     .sc-bcXHqe {
         height: auto !important;
         overflow: auto;
@@ -266,7 +268,7 @@ p {
     cursor: pointer;
 }
 
-.text-fontt{
+.text-fontt {
     color: #3377C0;
 }
 
@@ -492,6 +494,7 @@ footer .foot {
     border: 1px solid #e8e8e8;
     border-radius: 7px;
 }
+
 .footer {
     position: relative;
     text-align: center;

@@ -233,7 +233,7 @@
                                         <button href="#" class="btn btn-outline-primary ff-heading fs-14 fw-bold" data-bs-toggle="modal" data-bs-target="#newcard">Sell</button>
                                         <button href="#" class="btn btn-primary ff-heading fs-14 fw-bold">Buy</button>
                                     </div>
-                                </div> 
+                                </div>
                                 <div class="track card">
                                     <div class="widget_body card g-0 card--no-bg">
                                         <h2 class="mb-2 first">Quick Actions</h2>
@@ -489,7 +489,6 @@
 
     <!-- Theme Custom JS -->
     <script src="assets/js/theme.js"></script>
-
 </body>
 <?php include('../dashboard/include/layout/footer.php'); ?>
 
