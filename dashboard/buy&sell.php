@@ -119,10 +119,10 @@
                                                         <input type="tel" class="form-control" name="fname" value="" placeholder="Enter amount" required>
                                                     </div>
                                                 </div>
-                                                    <p class="mb-3 text-dark">
-                                                        <i class="bi bi-dot text-bg-danger me-1"></i>Bitcoin Balance <span class="float-end">0 BTC</span>
-                                                    </p>
-                                                   
+                                                <p class="mb-3 text-dark">
+                                                    <i class="bi bi-dot text-bg-danger me-1"></i>Bitcoin Balance <span class="float-end">0 BTC</span>
+                                                </p>
+
                                             </div>
                                             <button type="submit" class="btn mt-5 btn-primary w-10 text-white rounded-1 lh-15 ff-heading">Sell Now</button>
                                         </form>
@@ -271,5 +271,4 @@
 
 </body>
 <?php include('../dashboard/include/layout/footer.php'); ?>
-
 </html>
