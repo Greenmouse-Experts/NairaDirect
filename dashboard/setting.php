@@ -18,7 +18,6 @@
     <title>Setting Profile</title>
 </head>
 <!-- PHP to set the theme class dynamically -->
-
 <?php include('../dashboard/include/layout/header.php'); ?>
 
 <body>
@@ -373,7 +372,6 @@
     <script src="assets/js/theme.js"></script>
 
 </body>
-
 <?php include('../dashboard/include/layout/footer.php'); ?>
 
 </html>
