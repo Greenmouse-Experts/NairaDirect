@@ -18,7 +18,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Footer</title>
 </head>
-
 <body class="bg-light">
     <footer class="footer card">
         <div class="col-sm-12">
@@ -30,6 +29,4 @@
         </div>
     </footer>
 </body>
-
-
 </html>
